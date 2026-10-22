@@ -1,0 +1,5453 @@
+[
+ {
+  "id": "https://openalex.org/W3047479346",
+  "doi": "https://doi.org/10.1016/j.adhoc.2020.102278",
+  "title": "A deep reinforcement learning-based on-demand charging algorithm for wireless rechargeable sensor networks",
+  "publication_year": 2020,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1016/j.adhoc.2020.102278",
+   "doi": "https://doi.org/10.1016/j.adhoc.2020.102278",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.adhoc.2020.102278",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210177528",
+    "display_name": "Ad Hoc Networks",
+    "issn_l": "1570-8705",
+    "issn": [
+     "1570-8705",
+     "1570-8713"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "ccf-c",
+     "cwts-core",
+     "dongbi-d",
+     "jufo-2",
+     "norway-1",
+     "poland-100",
+     "russia-white-list-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Ad Hoc Networks",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5079727396",
+     "display_name": "Wenzheng Xu",
+     "orcid": "https://orcid.org/0000-0002-8396-6825",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8396-6825",
+      "https://orcid.org/0000-0003-2233-7416"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wenzheng Xu",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5072491273",
+     "display_name": "Xuxun Liu",
+     "orcid": "https://orcid.org/0000-0003-3132-0616",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3132-0616",
+      "https://orcid.org/0000-0003-2872-3174"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I90610280",
+      "display_name": "South China University of Technology",
+      "ror": "https://ror.org/0530pts50",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I90610280"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xuxun Liu",
+    "raw_affiliation_strings": [
+     "College of Electronic and Information Engineering, South China University of Technology, Guangzhou 510641, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Electronic and Information Engineering, South China University of Technology, Guangzhou 510641, China",
+      "institution_ids": [
+       "https://openalex.org/I90610280"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5106405535",
+     "display_name": "Jian Peng",
+     "orcid": "https://orcid.org/0000-0001-5831-2240",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5831-2240"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jian Peng",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, Sichuan 610065, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100764960",
+     "display_name": "Tang Liu",
+     "orcid": "https://orcid.org/0000-0002-9191-7222",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9191-7222"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I139759216",
+      "display_name": "Beijing University of Posts and Telecommunications",
+      "ror": "https://ror.org/04w9fbh59",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I139759216"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4392021250",
+      "display_name": "State Key Laboratory of Networking and Switching Technology",
+      "ror": "https://ror.org/00qtv5q45",
+      "country_code": null,
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I139759216",
+       "https://openalex.org/I4392021250"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I63354593",
+      "display_name": "Sichuan Normal University",
+      "ror": "https://ror.org/043dxc061",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I63354593"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Tang Liu",
+    "raw_affiliation_strings": [
+     "College of Computer Science and V.C. & V.R. Key Lab, Sichuan Normal University, Chengdu, Sichuan 610068, China",
+     "State key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing 100876, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science and V.C. & V.R. Key Lab, Sichuan Normal University, Chengdu, Sichuan 610068, China",
+      "institution_ids": [
+       "https://openalex.org/I63354593"
+      ]
+     },
+     {
+      "raw_affiliation_string": "State key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing 100876, China",
+      "institution_ids": [
+       "https://openalex.org/I139759216",
+       "https://openalex.org/I4392021250"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W3047479346",
+   "doi": "https://doi.org/10.1016/j.adhoc.2020.102278",
+   "mag": "3047479346"
+  },
+  "cited_by_count": 75
+ },
+ {
+  "id": "https://openalex.org/W4313886892",
+  "doi": "https://doi.org/10.1109/tap.2022.3233659",
+  "title": "A 1-bit Time-Modulated Reflectarray for Reconfigurable-Intelligent-Surface Applications",
+  "publication_year": 2023,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/tap.2022.3233659",
+   "doi": "https://doi.org/10.1109/tap.2022.3233659",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/tap.2022.3233659",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S85738991",
+    "display_name": "IEEE Transactions on Antennas and Propagation",
+    "issn_l": "0018-926X",
+    "issn": [
+     "0018-926X",
+     "1558-2221"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Transactions on Antennas and Propagation",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8714-6819",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101471441",
+     "display_name": "Toru Tanaka",
+     "orcid": "https://orcid.org/0000-0003-2498-4289",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2498-4289"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Toru Tanaka",
+    "raw_affiliation_strings": [
+     "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101573643",
+     "display_name": "Masaki Kozai",
+     "orcid": "https://orcid.org/0000-0002-3979-5969",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-3979-5969"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Masaki Kozai",
+    "raw_affiliation_strings": [
+     "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-3979-5969",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5075429514",
+     "display_name": "Hiroya Minami",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hiroya Minami",
+    "raw_affiliation_strings": [
+     "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NTT Space Environment and Energy Laboratories, NTT Corporation, Tokyo, Japan",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4313886892",
+   "doi": "https://doi.org/10.1109/tap.2022.3233659"
+  },
+  "cited_by_count": 73
+ },
+ {
+  "id": "https://openalex.org/W3054443206",
+  "doi": "https://doi.org/10.1364/josab.404062",
+  "title": "Multiband terahertz absorbers using T-shaped slot-patterned graphene and its complementary structure",
+  "publication_year": 2020,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1364/josab.404062",
+   "doi": "https://doi.org/10.1364/josab.404062",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1364/josab.404062",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S64486668",
+    "display_name": "Journal of the Optical Society of America B",
+    "issn_l": "0740-3224",
+    "issn": [
+     "0740-3224",
+     "1520-8540"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-c",
+     "jufo-1",
+     "ki-jl-1",
+     "norway-2",
+     "poland-70",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of the Optical Society of America B",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5086469511",
+     "display_name": "Kai‐Da Xu",
+     "orcid": "https://orcid.org/0000-0001-9408-1347",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9408-1347"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I87445476",
+      "display_name": "Xi'an Jiaotong University",
+      "ror": "https://ror.org/017zhmm22",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I87445476"
+      ]
+     }
+    ],
+    "countries": [
+     "CN",
+     "JP"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Kai-Da Xu",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan",
+     "School of Information and Communications Engineering, Xi’an Jiaotong University, Xi’an 710049, China",
+     "School of Information and Communications Engineering, Xi'an Jiaotong University, Xi'an 710049, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-9408-1347",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     },
+     {
+      "raw_affiliation_string": "School of Information and Communications Engineering, Xi’an Jiaotong University, Xi’an 710049, China",
+      "institution_ids": [
+       "https://openalex.org/I87445476"
+      ]
+     },
+     {
+      "raw_affiliation_string": "School of Information and Communications Engineering, Xi'an Jiaotong University, Xi'an 710049, China",
+      "institution_ids": [
+       "https://openalex.org/I87445476"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5089092278",
+     "display_name": "Yijun Cai",
+     "orcid": "https://orcid.org/0000-0002-7520-9277",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-7520-9277"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210119392",
+      "display_name": "Institute of Microelectronics",
+      "ror": "https://ror.org/02s6gs133",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210119392"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I75867142",
+      "display_name": "Xiamen University of Technology",
+      "ror": "https://ror.org/01285e189",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I75867142"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Yijun Cai",
+    "raw_affiliation_strings": [
+     "Fujian Provincial Key Laboratory of Optoelectronic Technology and Devices, Xiamen University of Technology, Xiamen 361024, China",
+     "Key Laboratory of Microelectronic Devices & Integrated Technology Institute of Microelectronics, Chinese Academy of Sciences, Beijing 100029, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Fujian Provincial Key Laboratory of Optoelectronic Technology and Devices, Xiamen University of Technology, Xiamen 361024, China",
+      "institution_ids": [
+       "https://openalex.org/I75867142"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Key Laboratory of Microelectronic Devices & Integrated Technology Institute of Microelectronics, Chinese Academy of Sciences, Beijing 100029, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210119392"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5041553596",
+     "display_name": "Ying-Jiang Guo",
+     "orcid": "https://orcid.org/0000-0002-3192-9184",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-3192-9184"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801345734",
+      "display_name": "China Academy of Engineering Physics",
+      "ror": "https://ror.org/039vqpp67",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I2801345734"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Yingjiang Guo",
+    "raw_affiliation_strings": [
+     "Microsystem & Terahertz Research Center, Institute of Electronic Engineering, China Academy of Engineering Physics, Chengdu 610200, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-3192-9184",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Microsystem & Terahertz Research Center, Institute of Electronic Engineering, China Academy of Engineering Physics, Chengdu 610200, China",
+      "institution_ids": [
+       "https://openalex.org/I2801345734"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100398088",
+     "display_name": "Yongliang Zhang",
+     "orcid": "https://orcid.org/0000-0003-3294-5503",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3294-5503"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Yongliang Zhang",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai 980-8579, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W3054443206",
+   "doi": "https://doi.org/10.1364/josab.404062",
+   "mag": "3054443206"
+  },
+  "cited_by_count": 36
+ },
+ {
+  "id": "https://openalex.org/W3185376184",
+  "doi": "https://doi.org/10.1145/3453682",
+  "title": "RLC: A Reinforcement Learning-Based Charging Algorithm for Mobile Devices",
+  "publication_year": 2021,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1145/3453682",
+   "doi": "https://doi.org/10.1145/3453682",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/3453682",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S170502224",
+    "display_name": "ACM Transactions on Sensor Networks",
+    "issn_l": "1550-4859",
+    "issn": [
+     "1550-4859",
+     "1550-4867"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "ccf-b",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "norway-2",
+     "poland-140",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Sensor Networks",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100764960",
+     "display_name": "Tang Liu",
+     "orcid": "https://orcid.org/0000-0002-9191-7222",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9191-7222"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4392021250",
+      "display_name": "State Key Laboratory of Networking and Switching Technology",
+      "ror": "https://ror.org/00qtv5q45",
+      "country_code": null,
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I139759216",
+       "https://openalex.org/I4392021250"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I63354593",
+      "display_name": "Sichuan Normal University",
+      "ror": "https://ror.org/043dxc061",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I63354593"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tang Liu",
+    "raw_affiliation_strings": [
+     "Sichuan Normal University; State Key Laboratory of Networking and Switching Technology, China",
+     "Sichuan Normal University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Sichuan Normal University; State Key Laboratory of Networking and Switching Technology, China",
+      "institution_ids": [
+       "https://openalex.org/I4392021250",
+       "https://openalex.org/I63354593"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Sichuan Normal University",
+      "institution_ids": [
+       "https://openalex.org/I63354593"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5110630713",
+     "display_name": "Baijun Wu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I79516672",
+      "display_name": "University of Louisiana at Lafayette",
+      "ror": "https://ror.org/01x8rc503",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2799628689",
+       "https://openalex.org/I79516672"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Baijun Wu",
+    "raw_affiliation_strings": [
+     "University of Louisiana at Lafayette, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Louisiana at Lafayette, USA",
+      "institution_ids": [
+       "https://openalex.org/I79516672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5079727396",
+     "display_name": "Wenzheng Xu",
+     "orcid": "https://orcid.org/0000-0002-8396-6825",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8396-6825",
+      "https://orcid.org/0000-0003-2233-7416"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wenzheng Xu",
+    "raw_affiliation_strings": [
+     "Sichuan University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Sichuan University, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Sichuan University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Sichuan University, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5106405535",
+     "display_name": "Jian Peng",
+     "orcid": "https://orcid.org/0000-0001-5831-2240",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5831-2240"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jian Peng",
+    "raw_affiliation_strings": [
+     "Sichuan University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Sichuan University, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5061078522",
+     "display_name": "Hongyi Wu",
+     "orcid": "https://orcid.org/0000-0001-8596-1342",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8596-1342"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I81365321",
+      "display_name": "Old Dominion University",
+      "ror": "https://ror.org/04zjtrb98",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I81365321"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hongyi Wu",
+    "raw_affiliation_strings": [
+     "Old Dominion University, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Old Dominion University, USA",
+      "institution_ids": [
+       "https://openalex.org/I81365321"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W3185376184",
+   "doi": "https://doi.org/10.1145/3453682",
+   "mag": "3185376184"
+  },
+  "cited_by_count": 35
+ },
+ {
+  "id": "https://openalex.org/W4320013900",
+  "doi": "https://doi.org/10.1109/tap.2023.3240005",
+  "title": "A Systematic Method for Efficient Wireless Powering to Implantable Biomedical Devices",
+  "publication_year": 2023,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/tap.2023.3240005",
+   "doi": "https://doi.org/10.1109/tap.2023.3240005",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/tap.2023.3240005",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S85738991",
+    "display_name": "IEEE Transactions on Antennas and Propagation",
+    "issn_l": "0018-926X",
+    "issn": [
+     "0018-926X",
+     "1558-2221"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Transactions on Antennas and Propagation",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5021909177",
+     "display_name": "Hiroyasu Sato",
+     "orcid": "https://orcid.org/0000-0001-6859-4544",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-6859-4544"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hiroyasu Sato",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-6859-4544",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5086469511",
+     "display_name": "Kai‐Da Xu",
+     "orcid": "https://orcid.org/0000-0001-9408-1347",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9408-1347"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kai-Da Xu",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-9408-1347",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "National Key Laboratory of Antennas and Microwave Technology, Xidian University, Xi&#x2019;an, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Key Laboratory of Antennas and Microwave Technology, Xidian University, Xi&#x2019;an, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100650815",
+     "display_name": "Shuxi Gong",
+     "orcid": "https://orcid.org/0000-0002-8651-6678",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8651-6678"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Shuxi Gong",
+    "raw_affiliation_strings": [
+     "National Key Laboratory of Antennas and Microwave Technology, Xidian University, Xi&#x2019;an, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Key Laboratory of Antennas and Microwave Technology, Xidian University, Xi&#x2019;an, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering, Tohoku University, Sendai, Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8714-6819",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Sendai, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4320013900",
+   "doi": "https://doi.org/10.1109/tap.2023.3240005"
+  },
+  "cited_by_count": 25
+ },
+ {
+  "id": "https://openalex.org/W4404809218",
+  "doi": "https://doi.org/10.1109/lawp.2024.3508094",
+  "title": "Inverse Design of Bifunctional Metasurfaces Using Improved Generative Adversarial Networks",
+  "publication_year": 2024,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/lawp.2024.3508094",
+   "doi": "https://doi.org/10.1109/lawp.2024.3508094",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/lawp.2024.3508094",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S189798733",
+    "display_name": "IEEE Antennas and Wireless Propagation Letters",
+    "issn_l": "1536-1225",
+    "issn": [
+     "1536-1225",
+     "1548-5757"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Antennas and Wireless Propagation Letters",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5041252056",
+     "display_name": "X. F. Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+     "Hangzhou Institute of Technology of Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0000-5284-0923",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+     "Hangzhou Institute of Technology of Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+     "Hangzhou Institute of Technology of Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4292-5039",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5101653624",
+     "display_name": "Wen Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+     "Hangzhou Institute of Technology of Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4404809218",
+   "doi": "https://doi.org/10.1109/lawp.2024.3508094"
+  },
+  "cited_by_count": 13
+ },
+ {
+  "id": "https://openalex.org/W4404711347",
+  "doi": "https://doi.org/10.1364/oe.541287",
+  "title": "Deep convolutional generative adversarial networks assisted inverse design of quad-channel full-space metasurface",
+  "publication_year": 2024,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1364/oe.541287",
+   "doi": "https://doi.org/10.1364/oe.541287",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1364/oe.541287",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S178776955",
+    "display_name": "Optics Express",
+    "issn_l": "1094-4087",
+    "issn": [
+     "1094-4087"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-b",
+     "jufo-1",
+     "ki-jl-1",
+     "medline",
+     "norway-2",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optics Express",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": null,
+     "display_name": "Xiaosong Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0009-0000-5284-0923",
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.1364/oe.541287",
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": {
+   "id": "doi:10.1364/oe.541287",
+   "doi": "https://doi.org/10.1364/oe.541287",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1364/oe.541287",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S178776955",
+    "display_name": "Optics Express",
+    "issn_l": "1094-4087",
+    "issn": [
+     "1094-4087"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-b",
+     "jufo-1",
+     "ki-jl-1",
+     "medline",
+     "norway-2",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optics Express",
+   "raw_type": "journal-article"
+  },
+  "ids": {
+   "openalex": "https://openalex.org/W4404711347",
+   "doi": "https://doi.org/10.1364/oe.541287"
+  },
+  "cited_by_count": 9
+ },
+ {
+  "id": "https://openalex.org/W3043704866",
+  "doi": "https://doi.org/10.1109/ipdps47924.2020.00030",
+  "title": "Learning an Effective Charging Scheme for Mobile Devices",
+  "publication_year": 2020,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.1109/ipdps47924.2020.00030",
+   "doi": "https://doi.org/10.1109/ipdps47924.2020.00030",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/ipdps47924.2020.00030",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210174069",
+    "display_name": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+    "issn_l": "1530-2075",
+    "issn": [
+     "1530-2075"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-2",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319808",
+    "host_organization_name": "Institute of Electrical and Electronics Engineers",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "conference"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100764960",
+     "display_name": "Tang Liu",
+     "orcid": "https://orcid.org/0000-0002-9191-7222",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9191-7222"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I63354593",
+      "display_name": "Sichuan Normal University",
+      "ror": "https://ror.org/043dxc061",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I63354593"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tang Liu",
+    "raw_affiliation_strings": [
+     "Visual Computing and Virtual Reality Key Laboratory of Sichuan Province, Sichuan Normal University, Chengdu, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Visual Computing and Virtual Reality Key Laboratory of Sichuan Province, Sichuan Normal University, Chengdu, China",
+      "institution_ids": [
+       "https://openalex.org/I63354593"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5110630713",
+     "display_name": "Baijun Wu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I79516672",
+      "display_name": "University of Louisiana at Lafayette",
+      "ror": "https://ror.org/01x8rc503",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2799628689",
+       "https://openalex.org/I79516672"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Baijun Wu",
+    "raw_affiliation_strings": [
+     "University of Louisiana at Lafayette, Lafayette, LA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Louisiana at Lafayette, Lafayette, LA, USA",
+      "institution_ids": [
+       "https://openalex.org/I79516672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5079727396",
+     "display_name": "Wenzheng Xu",
+     "orcid": "https://orcid.org/0000-0002-8396-6825",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8396-6825",
+      "https://orcid.org/0000-0003-2233-7416"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wenzheng Xu",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5106405535",
+     "display_name": "Jian Peng",
+     "orcid": "https://orcid.org/0000-0001-5831-2240",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5831-2240"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I24185976",
+      "display_name": "Sichuan University",
+      "ror": "https://ror.org/011ashp19",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jian Peng",
+    "raw_affiliation_strings": [
+     "College of Computer Science, Sichuan University, Chengdu, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "College of Computer Science, Sichuan University, Chengdu, China",
+      "institution_ids": [
+       "https://openalex.org/I24185976"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5061078522",
+     "display_name": "Hongyi Wu",
+     "orcid": "https://orcid.org/0000-0001-8596-1342",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8596-1342"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Hongyi Wu",
+    "raw_affiliation_strings": [
+     "Center for Cybersecurity Education and Research, Dominion University, Norfolk, VA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Center for Cybersecurity Education and Research, Dominion University, Norfolk, VA, USA",
+      "institution_ids": []
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W3043704866",
+   "doi": "https://doi.org/10.1109/ipdps47924.2020.00030",
+   "mag": "3043704866"
+  },
+  "cited_by_count": 12
+ },
+ {
+  "id": "https://openalex.org/W4416177764",
+  "doi": "https://doi.org/10.1109/lawp.2025.3632783",
+  "title": "Broadband 2 GHz to 14 GHz Dual-Polarized Horn Antenna With Stable Unidirectional Radiation Patterns",
+  "publication_year": 2025,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/lawp.2025.3632783",
+   "doi": "https://doi.org/10.1109/lawp.2025.3632783",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/lawp.2025.3632783",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S189798733",
+    "display_name": "IEEE Antennas and Wireless Propagation Letters",
+    "issn_l": "1536-1225",
+    "issn": [
+     "1536-1225",
+     "1548-5757"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Antennas and Wireless Propagation Letters",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Pengfei Zhang",
+     "orcid": "https://orcid.org/0009-0004-8302-5584",
+     "observed_orcids": [
+      "https://orcid.org/0009-0004-8302-5584"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Pengfei Zhang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0004-8302-5584",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4292-5039",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5101653624",
+     "display_name": "Wen Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4416177764",
+   "doi": "https://doi.org/10.1109/lawp.2025.3632783"
+  },
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W7119534701",
+  "doi": "https://doi.org/10.1364/oe.581263",
+  "title": "Time-modulated metasurfaces with both amplitude and phase control ability at carrier frequency",
+  "publication_year": 2026,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1364/oe.581263",
+   "doi": "https://doi.org/10.1364/oe.581263",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1364/oe.581263",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S178776955",
+    "display_name": "Optics Express",
+    "issn_l": "1094-4087",
+    "issn": [
+     "1094-4087"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-b",
+     "jufo-1",
+     "ki-jl-1",
+     "medline",
+     "norway-2",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optics Express",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Xiaosong Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0009-0000-5284-0923",
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101181765",
+     "display_name": "Kai-Da Xu",
+     "orcid": "https://orcid.org/0000-0001-9408-1347",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9408-1347"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I189268942",
+      "display_name": "Universidad de Alcalá",
+      "ror": "https://ror.org/04pmn0e78",
+      "country_code": "ES",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I189268942"
+      ]
+     }
+    ],
+    "countries": [
+     "ES"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kai-Da Xu",
+    "raw_affiliation_strings": [
+     "University of Alcalá"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-9408-1347",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Alcalá",
+      "institution_ids": [
+       "https://openalex.org/I189268942"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5122369523",
+     "display_name": "Wen Wu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Wu",
+    "raw_affiliation_strings": [
+     "Tohoku University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tohoku University",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0000-0003-4292-5039",
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5122391462",
+     "display_name": "Wen Jiang",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.1364/oe.581263",
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": {
+   "id": "doi:10.1364/oe.581263",
+   "doi": "https://doi.org/10.1364/oe.581263",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1364/oe.581263",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S178776955",
+    "display_name": "Optics Express",
+    "issn_l": "1094-4087",
+    "issn": [
+     "1094-4087"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-b",
+     "jufo-1",
+     "ki-jl-1",
+     "medline",
+     "norway-2",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optics Express",
+   "raw_type": "journal-article"
+  },
+  "ids": {
+   "openalex": "https://openalex.org/W7119534701",
+   "doi": "https://doi.org/10.1364/oe.581263",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/41715666"
+  },
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W7127303300",
+  "doi": "https://doi.org/10.23919/isap63122.2025.11362042",
+  "title": "Generative Adversarial Network-Enabled Inverse Design of Multifunctional Metasurfaces",
+  "publication_year": 2025,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.23919/isap63122.2025.11362042",
+   "doi": "https://doi.org/10.23919/isap63122.2025.11362042",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.23919/isap63122.2025.11362042",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2025 International Symposium on Antennas and Propagation (ISAP)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100358225",
+     "display_name": "Xiaojing Liu",
+     "orcid": "https://orcid.org/0000-0002-9712-2324",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9712-2324",
+      "https://orcid.org/0000-0003-4912-9019",
+      "https://orcid.org/0000-0002-2242-6139"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W7127303300",
+   "doi": "https://doi.org/10.23919/isap63122.2025.11362042"
+  },
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W3217075340",
+  "doi": "https://doi.org/10.23919/isap47258.2021.9614460",
+  "title": "Design of Multifunctional Reflectarray Elements Based on the Switchable Ground Plane",
+  "publication_year": 2021,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.23919/isap47258.2021.9614460",
+   "doi": "https://doi.org/10.23919/isap47258.2021.9614460",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.23919/isap47258.2021.9614460",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2021 International Symposium on Antennas and Propagation (ISAP)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Tohoku University,Department of Communications Engineering,Japan",
+     "Department of Communications Engineering, Tohoku University, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tohoku University,Department of Communications Engineering,Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "Tohoku University,Department of Communications Engineering,Japan",
+     "Department of Communications Engineering, Tohoku University, Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tohoku University,Department of Communications Engineering,Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Communications Engineering, Tohoku University, Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W3217075340",
+   "doi": "https://doi.org/10.23919/isap47258.2021.9614460",
+   "mag": "3217075340"
+  },
+  "cited_by_count": 3
+ },
+ {
+  "id": "https://openalex.org/W2901268143",
+  "doi": "https://doi.org/10.1049/cp.2018.0432",
+  "title": "Multi-band Unbroken Metallic rim Antenna with 3-D PIFA Branch for Smartwatch Wearable Device",
+  "publication_year": 2018,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.1049/cp.2018.0432",
+   "doi": "https://doi.org/10.1049/cp.2018.0432",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1049/cp.2018.0432",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306418306",
+    "display_name": "European Conference on Antennas and Propagation",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "conference"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "12th European Conference on Antennas and Propagation (EuCAP 2018)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Wen Jiang",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101662374",
+     "display_name": "Shuhong Gong",
+     "orcid": "https://orcid.org/0000-0002-1105-4595",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1105-4595"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "S. Gong",
+    "raw_affiliation_strings": [
+     "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5059970280",
+     "display_name": "Peng Liu",
+     "orcid": "https://orcid.org/0000-0002-5799-3176",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5799-3176"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Peng Liu",
+    "raw_affiliation_strings": [
+     "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "[National Key Laboratory of Antennas and Microwave Technology, Collaborative Innovation Center of Information Sensing and Understanding at Xidian University, Xi'an 710071, People's Republic of China]",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W2901268143",
+   "doi": "https://doi.org/10.1049/cp.2018.0432",
+   "mag": "2901268143"
+  },
+  "cited_by_count": 2
+ },
+ {
+  "id": "https://openalex.org/W4353004573",
+  "doi": "https://doi.org/10.1587/comex.2023tcl0008",
+  "title": "DOA estimation and object localization based on multi-harmonic multi-beam characteristic of 1-bit time-modulated reflectarray",
+  "publication_year": 2023,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1587/comex.2023tcl0008",
+   "doi": "https://doi.org/10.1587/comex.2023tcl0008",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1587/comex.2023tcl0008",
+   "pdf_url": "https://www.jstage.jst.go.jp/article/comex/advpub/0/advpub_2023TCL0008/_pdf",
+   "source": {
+    "id": "https://openalex.org/S4210218080",
+    "display_name": "IEICE Communications Express",
+    "issn_l": "2187-0136",
+    "issn": [
+     "2187-0136"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [
+     "dongbi-c",
+     "jufo-1",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEICE Communications Express",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "School of Engineering, Tohoku University"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "School of Engineering, Tohoku University",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "School of Engineering, Tohoku University"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8714-6819",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "School of Engineering, Tohoku University",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101471441",
+     "display_name": "Toru Tanaka",
+     "orcid": "https://orcid.org/0000-0003-2498-4289",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2498-4289"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Toru Tanaka",
+    "raw_affiliation_strings": [
+     "Space Environment and Energy Laboratories, NTT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Space Environment and Energy Laboratories, NTT",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101573643",
+     "display_name": "Masaki Kozai",
+     "orcid": "https://orcid.org/0000-0002-3979-5969",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-3979-5969"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Masaki Kozai",
+    "raw_affiliation_strings": [
+     "Space Environment and Energy Laboratories, NTT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Space Environment and Energy Laboratories, NTT",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": null,
+     "display_name": "Hiroya Minami",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2251713219",
+      "display_name": "NTT (Japan)",
+      "ror": "https://ror.org/00berct97",
+      "country_code": "JP",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hiroya Minami",
+    "raw_affiliation_strings": [
+     "Space Environment and Energy Laboratories, NTT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Space Environment and Energy Laboratories, NTT",
+      "institution_ids": [
+       "https://openalex.org/I2251713219"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "diamond",
+   "oa_url": "https://www.jstage.jst.go.jp/article/comex/advpub/0/advpub_2023TCL0008/_pdf",
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": {
+   "id": "doi:10.1587/comex.2023tcl0008",
+   "doi": "https://doi.org/10.1587/comex.2023tcl0008",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1587/comex.2023tcl0008",
+   "pdf_url": "https://www.jstage.jst.go.jp/article/comex/advpub/0/advpub_2023TCL0008/_pdf",
+   "source": {
+    "id": "https://openalex.org/S4210218080",
+    "display_name": "IEICE Communications Express",
+    "issn_l": "2187-0136",
+    "issn": [
+     "2187-0136"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [
+     "dongbi-c",
+     "jufo-1",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEICE Communications Express",
+   "raw_type": "journal-article"
+  },
+  "ids": {
+   "openalex": "https://openalex.org/W4353004573",
+   "doi": "https://doi.org/10.1587/comex.2023tcl0008"
+  },
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W4402731492",
+  "doi": "https://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+  "title": "A Low-profile 1-bit One-dimensional Guided Wave Fed Reconfigurable Transmitarray Antenna with Time Modulation",
+  "publication_year": 2024,
+  "type": "preprint",
+  "primary_location": {
+   "id": "doi:10.36227/techrxiv.172710059.98750657/v1",
+   "doi": "https://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+   "is_oa": true,
+   "landing_page_url": "http://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+   "pdf_url": null,
+   "source": null,
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": "Techrxiv",
+   "raw_type": "posted-content"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5038732105",
+     "display_name": "Kevin Kipruto Mutai",
+     "orcid": "https://orcid.org/0000-0003-3611-6331",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3611-6331"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Kevin Mutai",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0000-0003-3611-6331",
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "http://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+   "any_repository_has_fulltext": null
+  },
+  "best_oa_location": {
+   "id": "doi:10.36227/techrxiv.172710059.98750657/v1",
+   "doi": "https://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+   "is_oa": true,
+   "landing_page_url": "http://doi.org/10.36227/techrxiv.172710059.98750657/v1",
+   "pdf_url": null,
+   "source": null,
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": "Techrxiv",
+   "raw_type": "posted-content"
+  },
+  "ids": {
+   "openalex": "https://openalex.org/W4402731492",
+   "doi": "https://doi.org/10.36227/techrxiv.172710059.98750657/v1"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W4406728772",
+  "doi": "https://doi.org/10.1109/isape62431.2024.10841285",
+  "title": "Deep Learning-Driven Design of Freeform Metasurfaces for Holographic Imaging",
+  "publication_year": 2024,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.1109/isape62431.2024.10841285",
+   "doi": "https://doi.org/10.1109/isape62431.2024.10841285",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/isape62431.2024.10841285",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4363604697",
+    "display_name": "International Symposium on Antennas, Propagation and EM Theory (ISAPE)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "conference"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2024 14th International Symposium on Antennas, Propagation and EM Theory (ISAPE)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5041252056",
+     "display_name": "X. F. Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4406728772",
+   "doi": "https://doi.org/10.1109/isape62431.2024.10841285"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W4407787492",
+  "doi": "https://doi.org/10.1109/apcap62011.2024.10881350",
+  "title": "Low-Profile and Wideband Bessel Beams Generator with OAM Using Amplitude- and Phase-Controlled Metasurface",
+  "publication_year": 2024,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.1109/apcap62011.2024.10881350",
+   "doi": "https://doi.org/10.1109/apcap62011.2024.10881350",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/apcap62011.2024.10881350",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306418581",
+    "display_name": "IEEE Asia-Pacific Conference on Antennas and Propagation",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "conference"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2024 IEEE 12th Asia-Pacific Conference on Antennas and Propagation (APCAP)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5041252056",
+     "display_name": "X. F. Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institution of Technology Xidian University,Hangzhou,Zhejiang,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W4407787492",
+   "doi": "https://doi.org/10.1109/apcap62011.2024.10881350"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W4409156446",
+  "doi": "https://doi.org/10.1049/mia2.70013",
+  "title": "An Extremely Low‐Profile Electronically Reconfigurable 1‐D X‐Band Leaky‐Wave Antenna",
+  "publication_year": 2025,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1049/mia2.70013",
+   "doi": "https://doi.org/10.1049/mia2.70013",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1049/mia2.70013",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/mia2.70013",
+   "source": {
+    "id": "https://openalex.org/S43247408",
+    "display_name": "IET Microwaves Antennas & Propagation",
+    "issn_l": "1751-8725",
+    "issn": [
+     "1751-8725",
+     "1751-8733"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-c",
+     "jufo-1",
+     "norway-1",
+     "poland-70",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310311714",
+    "host_organization_name": "Institution of Engineering and Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310311714"
+    ],
+    "host_organization_lineage_names": [
+     "Institution of Engineering and Technology"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IET Microwaves, Antennas &amp; Propagation",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5038732105",
+     "display_name": "Kevin Kipruto Mutai",
+     "orcid": "https://orcid.org/0000-0003-3611-6331",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3611-6331"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Kevin Kipruto Mutai",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering Graduate School of Engineering Tohoku University  Sendai Japan"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-3611-6331",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering Graduate School of Engineering Tohoku University  Sendai Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "CN",
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Department of Communications Engineering Graduate School of Engineering Tohoku University  Sendai Japan",
+     "Hangzhou Institute of Technology and the School of Engineering Xidian University  Xi'an China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Communications Engineering Graduate School of Engineering Tohoku University  Sendai Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology and the School of Engineering Xidian University  Xi'an China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100435655",
+     "display_name": "Qiang Chen",
+     "orcid": "https://orcid.org/0000-0001-8714-6819",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8714-6819"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Qiang Chen",
+    "raw_affiliation_strings": [
+     "Contribution: Funding acquisition, ​Investigation, Supervision, Writing - review & editing"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Contribution: Funding acquisition, ​Investigation, Supervision, Writing - review & editing",
+      "institution_ids": []
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/mia2.70013",
+   "any_repository_has_fulltext": true
+  },
+  "best_oa_location": {
+   "id": "doi:10.1049/mia2.70013",
+   "doi": "https://doi.org/10.1049/mia2.70013",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1049/mia2.70013",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/mia2.70013",
+   "source": {
+    "id": "https://openalex.org/S43247408",
+    "display_name": "IET Microwaves Antennas & Propagation",
+    "issn_l": "1751-8725",
+    "issn": [
+     "1751-8725",
+     "1751-8733"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-c",
+     "jufo-1",
+     "norway-1",
+     "poland-70",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310311714",
+    "host_organization_name": "Institution of Engineering and Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310311714"
+    ],
+    "host_organization_lineage_names": [
+     "Institution of Engineering and Technology"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IET Microwaves, Antennas &amp; Propagation",
+   "raw_type": "journal-article"
+  },
+  "ids": {
+   "openalex": "https://openalex.org/W4409156446",
+   "doi": "https://doi.org/10.1049/mia2.70013"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W7124174813",
+  "doi": "https://doi.org/10.1109/lawp.2026.3654144",
+  "title": "An Ultrawideband 1-Bit Reconfigurable Reflectarray Element With Improved Angular Stability",
+  "publication_year": 2026,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/lawp.2026.3654144",
+   "doi": "https://doi.org/10.1109/lawp.2026.3654144",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/lawp.2026.3654144",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S189798733",
+    "display_name": "IEEE Antennas and Wireless Propagation Letters",
+    "issn_l": "1536-1225",
+    "issn": [
+     "1536-1225",
+     "1548-5757"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Antennas and Wireless Propagation Letters",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4756-6744",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101521323",
+     "display_name": "Zhou Zhou",
+     "orcid": "https://orcid.org/0009-0000-2359-1534",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-2359-1534"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Zhou Zhou",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0000-2359-1534",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101181765",
+     "display_name": "Kai-Da Xu",
+     "orcid": "https://orcid.org/0000-0001-9408-1347",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9408-1347"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I189268942",
+      "display_name": "Universidad de Alcalá",
+      "ror": "https://ror.org/04pmn0e78",
+      "country_code": "ES",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I189268942"
+      ]
+     }
+    ],
+    "countries": [
+     "ES"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kai-Da Xu",
+    "raw_affiliation_strings": [
+     "Department of Signal Theory and Communications, Polytechnic School, University of Alcal&#x00E1;, Alcal&#x00E1; de Henares, Spain"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-9408-1347",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Signal Theory and Communications, Polytechnic School, University of Alcal&#x00E1;, Alcal&#x00E1; de Henares, Spain",
+      "institution_ids": [
+       "https://openalex.org/I189268942"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5041252056",
+     "display_name": "X. F. Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0000-5284-0923",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4292-5039",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology, Xidian University, Hangzhou, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-9800-2877",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology, Xidian University, Hangzhou, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W7124174813",
+   "doi": "https://doi.org/10.1109/lawp.2026.3654144"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W7127362122",
+  "doi": "https://doi.org/10.23919/isap63122.2025.11361784",
+  "title": "A Beam-Forming Method for 1-Bit Time-Modulate Reflectarray at Carrier Frequency",
+  "publication_year": 2025,
+  "type": "conference-paper",
+  "primary_location": {
+   "id": "doi:10.23919/isap63122.2025.11361784",
+   "doi": "https://doi.org/10.23919/isap63122.2025.11361784",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.23919/isap63122.2025.11361784",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "2025 International Symposium on Antennas and Propagation (ISAP)",
+   "raw_type": "proceedings-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5122369523",
+     "display_name": "Wen Wu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I201537933",
+      "display_name": "Tohoku University",
+      "ror": "https://ror.org/01dq60k83",
+      "country_code": "JP",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ],
+    "countries": [
+     "JP"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Wu",
+    "raw_affiliation_strings": [
+     "Tohoku University,Department of Engineering,Japan"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tohoku University,Department of Engineering,Japan",
+      "institution_ids": [
+       "https://openalex.org/I201537933"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100358225",
+     "display_name": "Xiaojing Liu",
+     "orcid": "https://orcid.org/0000-0002-9712-2324",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9712-2324",
+      "https://orcid.org/0000-0003-4912-9019",
+      "https://orcid.org/0000-0002-2242-6139"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037476439",
+     "display_name": "Wen Ting Jiang",
+     "orcid": "https://orcid.org/0000-0002-9800-2877",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9800-2877"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Xidian University,Hangzhou Institute of Technology,China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Xidian University,Hangzhou Institute of Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W7127362122",
+   "doi": "https://doi.org/10.23919/isap63122.2025.11361784"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W7160489493",
+  "doi": "https://doi.org/10.1021/acsami.5c26257",
+  "title": "Hybrid Physical and Algorithmic Codesign for Information Encryption via Multiplexed Meta-Holography",
+  "publication_year": 2026,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1021/acsami.5c26257",
+   "doi": "https://doi.org/10.1021/acsami.5c26257",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1021/acsami.5c26257",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S164001016",
+    "display_name": "ACS Applied Materials & Interfaces",
+    "issn_l": "1944-8244",
+    "issn": [
+     "1944-8244",
+     "1944-8252"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "ki-jl-1",
+     "medline",
+     "norway-1",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320006",
+    "host_organization_name": "American Chemical Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320006"
+    ],
+    "host_organization_lineage_names": [
+     "American Chemical Society"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACS Applied Materials &amp; Interfaces",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5043995705",
+     "display_name": "X M Liu",
+     "orcid": "https://orcid.org/0000-0002-8780-5455",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8780-5455",
+      "https://orcid.org/0009-0009-5024-9932",
+      "https://orcid.org/0000-0001-7970-4227",
+      "https://orcid.org/0000-0002-1798-7572",
+      "https://orcid.org/0000-0002-5385-6676",
+      "https://orcid.org/0000-0002-7631-751X",
+      "https://orcid.org/0000-0002-9523-9094",
+      "https://orcid.org/0009-0000-5284-0923",
+      "https://orcid.org/0009-0002-8657-3899",
+      "https://orcid.org/0009-0002-8697-5337",
+      "https://orcid.org/0009-0005-1179-4736",
+      "https://orcid.org/0009-0005-5814-4642"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0000-5284-0923",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "National Key Laboratory of Radar Detection and Sensing, School of Electronic Engineering",
+     "Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Key Laboratory of Radar Detection and Sensing, School of Electronic Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5135578872",
+     "display_name": "Wen Jiang",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "National Key Laboratory of Radar Detection and Sensing, School of Electronic Engineering",
+     "Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Key Laboratory of Radar Detection and Sensing, School of Electronic Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W7160489493",
+   "doi": "https://doi.org/10.1021/acsami.5c26257",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/42095336"
+  },
+  "cited_by_count": 0
+ },
+ {
+  "id": "https://openalex.org/W7206169263",
+  "doi": "https://doi.org/10.1109/lawp.2026.3729810",
+  "title": "A Polarization-Multiplexed Reconfigurable Metasurface With Ultra-Wideband 1-Bit Reflection and Absorption",
+  "publication_year": 2026,
+  "type": "article",
+  "primary_location": {
+   "id": "doi:10.1109/lawp.2026.3729810",
+   "doi": "https://doi.org/10.1109/lawp.2026.3729810",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/lawp.2026.3729810",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S189798733",
+    "display_name": "IEEE Antennas and Wireless Propagation Letters",
+    "issn_l": "1536-1225",
+    "issn": [
+     "1536-1225",
+     "1548-5757"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320753",
+    "host_organization_name": "IEEE Antennas & Propagation Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320753",
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "IEEE Antennas & Propagation Society",
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Antennas and Wireless Propagation Letters",
+   "raw_type": "journal-article"
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5041252056",
+     "display_name": "X. F. Liu",
+     "orcid": "https://orcid.org/0009-0000-5284-0923",
+     "observed_orcids": [
+      "https://orcid.org/0009-0000-5284-0923"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaosong Liu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100697416",
+     "display_name": "Yingxin Zhao",
+     "orcid": "https://orcid.org/0009-0003-9204-4579",
+     "observed_orcids": [
+      "https://orcid.org/0009-0003-9204-4579"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yingxin Zhao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5151925113",
+     "display_name": "Wei Hu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wei Hu",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015198160",
+     "display_name": "Xianbo Cao",
+     "orcid": "https://orcid.org/0000-0002-4756-6744",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4756-6744"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xianbo Cao",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016953289",
+     "display_name": "Tao Hong",
+     "orcid": "https://orcid.org/0000-0003-4292-5039",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4292-5039"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tao Hong",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100572776",
+     "display_name": "Jiang Wen",
+     "orcid": "https://orcid.org/0009-0005-4644-0452",
+     "observed_orcids": [
+      "https://orcid.org/0009-0005-4644-0452"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Wen Jiang",
+    "raw_affiliation_strings": [
+     "Hangzhou Institute of Technology of Xidian University"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Hangzhou Institute of Technology of Xidian University",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   }
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "best_oa_location": null,
+  "ids": {
+   "openalex": "https://openalex.org/W7206169263",
+   "doi": "https://doi.org/10.1109/lawp.2026.3729810"
+  },
+  "cited_by_count": 0
+ }
+]

@@ -1,0 +1,424 @@
+
+===== PAGE 1 =====
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 23, NO. 12, DECEMBER 2024
+4613
+An Ultrawideband 1-Bit Suspended Reconﬁgurable
+Intelligent Surface for Enhancing Wireless Coverage
+Hongyu Shi
+, Member, IEEE, Rui Liu
+, Ziyang Zhang
+, Xiaoming Chen
+, Senior Member, IEEE,
+Luyi Wang
+, Graduate Student Member, IEEE, Jianjia Yi
+, Haiwen Liu
+, Senior Member, IEEE,
+and Anxue Zhang
+Abstract—This letter proposes an ultrawideband 1-bit sus-
+pended reconﬁgurable intelligent surface (RIS) designed to en-
+hance the signal coverage of wireless communication networks.
+The RIS unit cell comprises two metal gratings connected via a
+PIN diode, a dielectric-air-dielectric interlayer, and a metal reﬂec-
+tive layer. The RIS achieves a stable reﬂection phase difference
+of 180° ± 30° between the ON and OFF states of the PIN diode
+within the ultrawideband range of 2.75 GHz to 6 GHz. This range
+includes the 3.4 GHz and 4.9 GHz bands for 5G communication, the
+5.2 GHz band for indoor wireless communication, and the 5.8 GHz
+band for Wi-Fi and Bluetooth signals. A prototype, consisting of
+20 × 20 unit cells, was fabricated and measured, demonstrating
+two-dimensional wide-angle beam scanning of ± 60° within the
+working frequency range. Furthermore, a RIS-assisted wireless
+communication system was constructed, conﬁrming that deploying
+RIS can signiﬁcantly enhance communication quality in targeted
+areas by transmitting and receiving image information at differ-
+ent frequencies. The proposed RIS holds substantial potential for
+RIS-assisted wireless communication systems.
+Index
+Terms—Beam
+deﬂection,
+reconﬁgurable
+intelligent
+surface, ultrawideband, wireless communication.
+I. INTRODUCTION
+M
+ETASURFACES, as two-dimensional equivalents of
+electromagnetic metamaterials, have garnered signiﬁ-
+cant attention in recent years due to their ability to control the
+phase, amplitude, and polarization of electromagnetic waves [1].
+Generally, the function of passive metasurfaces is ﬁxed after
+fabrication, limiting their ability to ﬂexibly manipulate electro-
+magneticwaves[2].Toachievedynamicreal-timemanipulation,
+reconﬁgurable intelligent surfaces (RISs) incorporating tunable
+components [3] and tunable materials [4] have been extensively
+studied. This advancement has led to many attractive applica-
+tions, including stealth technology [5], imaging [6], wireless
+communication systems [7], and radar systems [8].
+With the growing demand for wireless communication, RISs
+have emerged as an appealing solution for enhancing indoor
+wireless communication [9]. By dynamically guiding the re-
+ﬂected beam, RISs can cover signal blind spots and improve
+Received 19 July 2024; accepted 11 September 2024. Date of publication 12
+September 2024; date of current version 13 December 2024. This work was
+supported in part by the Shaanxi S&T Innovation Team under Grant 2023-CX-
+TD-03 and in part by the National Key Research and Development Program of
+China under Grant 2020YFB1807002. (Corresponding author: Hongyu Shi.)
+The authors are with the School of Information and Communications En-
+gineering, Xi’an Jiaotong University, Xi’an 710049, China (e-mail: honyo.
+shi1987@gmail.com).
+Digital Object Identiﬁer 10.1109/LAWP.2024.3460398
+Fig. 1.
+Schematic of 1-bit RIS application in a T-shaped corridor.
+signal quality in designated areas. In Li et al. [10], proposed
+a RIS-assisted massive backscatter wireless communication
+scheme for 2.4 GHz Wi-Fi signals, which reallocates stray
+wireless wave energy toward desired locations, veriﬁed through
+image transmission experiments. In Cui et al. [11], developed a
+dual-channel wireless communication system based on space-
+time-coding RIS, transmitting different images to two users.
+However, most existing RISs operate on narrow bands [12]
+or single frequencies [13], [14], limiting their ability to meet
+wideband wireless communication requirements.
+In wireless communication systems, a wider bandwidth is
+desirable to cover more communication frequency bands. Re-
+cently, some wideband RISs have been presented to realize
+wideband beam manipulation [15], [16], [17], [18], [19], [20].
+An ultrawideband low-loss RIS proposed in [15] achieves a
+1-bit phase shift from 6.75 GHz to 11.25 GHz and a 50%
+relative bandwidth. A wideband RIS was designed to provide
+stable wireless communication service in the frequency range
+of 3.7 GHz to 5.1 GHz with a relative bandwidth of 31.8%
+[9]. However, these wideband RISs can only enhance signal
+coverage in a single or two frequency band, which cannot cover
+thedifferentfrequencybandsadoptedbythevariousstandardsof
+current wireless communication. Moreover, using a suspended
+structure in the design of RISs can reduce the magnetic coupling
+between the surface and ground plane, suppressing the Q-factor
+of magnetic resonance and further enhancing the bandwidth
+characteristics of RIS [21], [22].
+In this letter, to meet the requirement of ultrawideband dy-
+namic two-dimensional beam manipulation for advanced wire-
+lesscommunications,anultrawideband1-bitsuspendedRISwas
+designed, fabricated, and measured. The schematic diagram of
+the ultrawideband 1-bit RIS application in a T-shaped corridor
+is shown in Fig. 1. The measured results show that the proposed
+RIS has a stable reﬂection phase difference of 180° ± 30°
+from 3 GHz to 6.25 GHz, with a relative bandwidth of 70.3%.
+Additionally, an ultrawideband 1-bit RIS-assisted intelligent
+1536-1225 © 2024 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+See https://www.ieee.org/publications/rights/index.html for more information.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 12:28:46 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 2 =====
+4614
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 23, NO. 12, DECEMBER 2024
+Fig. 2.
+Schematic of the designed unit cell. (a) Perspective 3-D view. (b) Top
+metal gratings. (c) Equivalent circuit of PIN diode.
+Fig. 3.
+(a) Reﬂection amplitude and (b) phase response of the unit cell.
+wireless communication system was constructed, verifying the
+RIS’s ability to signiﬁcantly improve communication quality in
+the required area through real-time information transmission of
+different images at various frequencies.
+II. DESIGN OF THE ULTRAWIDEBAND SUSPENDED RIS
+The schematic of the designed suspended RIS unit cell is
+shown in Fig. 2. It consists of two metal gratings connected
+through a PIN diode, a dielectric-air-dielectric interlayer, and a
+metal reﬂective layer. The pattern layer is suspended above the
+bottom reﬂective layer through an air gap to achieve wideband
+characteristics. The right metal gratings are connected to the
+bias lines on the back of the ﬁrst dielectric layer through vias
+to allow independent control of the PIN diodes. The inﬂuence
+of bias lines on the electromagnetic response of the unit cell
+has been considered in the simulation. The length of the left
+gratings equals the unit cell period, so the left gratings of the
+whole column are connected as the common ground of the PIN
+diodes. The unit cell period is p = 18 mm, approximately equal
+to 0.26λ at the center frequency. The thickness of the dielectric
+layers and the air layer are h1(2) = 3 mm and hair = 5.5 mm,
+respectively. The relative permittivity and loss tangent of the
+dielectric substrate are 2.5 and 0.001, respectively. The other
+detailed parameters are as follows: w1(2) = 3.5 mm, l1 = 18
+mm, l2 = 17.5 mm, g1 = 4.4 mm, g2 = 1.3 mm, and w3 =
+1 mm. The PIN diode used in the unit cell is the Skyworks
+SMP1320-079LF, and its equivalent circuit is given in Fig. 2(c),
+where RON = 0.5 Ω, L on = 0.7 nH, C = 0.24 pF, R off = 0.4
+MΩ, and LOFF = 0.5 nH.
+The unit cell was simulated using periodic boundaries and a
+Floquet port in CST Microwave Studio. The reﬂection amplitude
+and phase response of the unit cell between the ON and OFF states
+of the PIN diode are shown in Fig. 3. The simulated results
+indicate that the unit cell has distinct resonant frequencies in the
+ON and OFF states of the PIN diode, with a maximum loss of 0.33
+dB within the frequency band. The widely separated resonant
+Fig. 4.
+Electric ﬁeld distribution and the surface current distribution of the
+unit cell at the frequency of (a) 3.4 GHz, (b) 4.9 GHz, and (c) 5.8 GHz.
+frequencies of 2.7 GHz and 6.4 GHz enable the unit cell to
+achieve a wideband phase response. Notably, the unit cell can
+achieve a phase difference of 180° ± 30° in the ultrawideband
+range of 2.75 GHz to 6 GHz, with a relative bandwidth of 74.3%.
+TheseresultsdemonstratethatthedesignedRISunitcellexhibits
+good performance with ultrawideband capabilities and low loss.
+To elucidate the mechanism of the ultrawideband phase re-
+sponse of the RIS, the electric ﬁeld distribution and the surface
+current distribution of the unit cell in the two states of the
+PIN diode at frequencies of 3.4 GHz, 4.9 GHz, and 5.8 GHz
+were simulated, as shown in Fig. 4. The two metal gratings
+are short-circuited in the ON state, while a capacitance exists
+between the two metal gratings in the OFF state. In the ON state,
+the two gratings form an electric dipole to generate electric
+resonance, whereas in the OFF state, it is equivalent to a double
+electric dipole resonance. These different resonant modes lead to
+the generation of an abrupt phase change. Moreover, the surface
+currentsareinvertedinbothstates,resultinginaphasedifference
+of 180°.
+According to the pattern multiplication principle, to deﬂect
+the beam in the direction of (θ, ϕ), the phase distribution for the
+unit cells of the RIS can be expressed as
+ϕm,n
+= −k ((m −1/2) dx cos ϕ sin θ + (n −1/2) dy sin ϕ sin θ)
+(1)
+where k = 2π/λ is the propagation constant, and dx and dy are
+the periodicity of unit cells in x- and y-directions, respectively.
+The 1-bit phase quantization of the unit cells can be expressed
+as
+ψm,n =
+ π
+2 , ϕm,n + ϕ0 ∈[0, π)
+3π
+2 , ϕm,n + ϕ0 ∈[π, 2π)
+(2)
+where ψm,n is the quantized phase, ϕm,n is the phase calcu-
+lated theoretically, and ϕ0 is the artiﬁcially selected additional
+reference phase for all unit cells.
+To verify the dynamic two-dimensional scanning capability
+of the proposed RIS for incident electromagnetic waves, the
+radiation patterns of the array composed of 20 × 20 unit cells
+with different beam deﬂection angles at 3.4 GHz, 4.9 GHz, and
+5.8 GHz were simulated, as shown in Fig. 5. The radiation
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 12:28:46 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 3 =====
+SHI et al.: ULTRAWIDEBAND 1-BIT SUSPENDED RECONFIGURABLE INTELLIGENT SURFACE FOR ENHANCING WIRELESS COVERAGE
+4615
+Fig. 5.
+Radiation patterns of the RIS array with different beam deﬂection
+angles at (a) 3.4 GHz, (b) 4.9 GHz, and (c) 5.8 GHz.
+Fig. 6.
+(a) Fabricated RIS prototype. (b) Image of the experimental system.
+(c) Schematic of the experimental system.
+patterns were simulated by CST using an open boundary and
+plane wave excitation with different phase distributions. As the
+deﬂection angle increases, the performance of beam deﬂection
+tends to deteriorate. It can be observed that the designed RIS
+can deﬂect incident electromagnetic waves to speciﬁc directions
+between 0° and 60°, demonstrating good beam deﬂection and
+scanning performance.
+III. FABRICATION AND MEASUREMENT OF THE
+ULTRAWIDEBAND SUSPENDED RIS
+To verify the performance of the designed RIS, a prototype
+was fabricated using printed circuit board technology, as shown
+in Fig. 6(a). The rectangular array consists of 20 × 20 unit
+cells measuring 400 mm × 400 mm. The dielectric layers are
+suspended and ﬁxed by plastic studs at the four corners, forming
+a dielectric-air-dielectric interlayer. Additionally, 13 nH choke
+inductors (Murata LQP03HQ13NH02D) are loaded on the dc
+bias lines to isolate the RF signal. Since the state of the PIN
+diode of each unit cell needs to be controlled independently, a
+ﬁeld-programmable gate array (FPGA) provides different bias
+voltages. It is worth noting that the total power consumption of
+the RIS system in operation is 4.8 W to 8.2 W.
+The fabricated prototype was measured using the reﬂectivity
+experimental system, as depicted in Fig. 6(b) and (c). The exper-
+imental system consists of a vector network analyzer, two arched
+arms loaded with a transmitting horn antenna and a receiving
+horn antenna, and arched arm rotation control equipment. The
+left horn antenna radiates a quasi-plane wave as excitation,
+while the right horn antenna receives the reﬂected wave from
+the proposed RIS. The right arm rotates to scan and record the
+reﬂection coefﬁcients for different angles to build the radiation
+patterns. Additionally, absorbent materials were laid on the
+ground and pointed by the horn antennas to absorb scattered
+waves.
+Fig. 7.
+Measured (a) amplitude response and (b) phase response of the unit
+cell.
+Fig. 8.
+Simulated and measured radiation patterns of the RIS array at
+(a) 3.4 GHz, (b) 4.9 GHz, and (c) 5.8 GHz. (d) Simulated and measured radiation
+patterns with different incident angles at 4.9 GHz.
+By setting all PIN diodes to either the ON or OFF state, the
+amplitude response and phase response were measured in both
+states, as shown in Fig. 7. Due to limitations of the experimental
+system, the incident angle of the transmitting antenna is set
+to 4° to approximate normal incidence, while the receiving
+antenna is placed symmetrically on the opposite side of the
+normal plane. The measured results show that the fabricated
+RIS meets the ultrawideband 1-bit phase response within 3 GHz
+to 6.25 GHz, with a relative bandwidth of 70.3% and a maximum
+loss within the frequency band of 0.57 dB. It can be observed
+that the amplitude response slightly decreases compared to the
+simulation, and the phase response has a slight deviation. The
+primary reasons for the deviation include manufacturing errors
+of the prototype, measurement errors of the system, and the
+bendingoftheRISplaneundergravityduetoinsufﬁcientrigidity
+and lack of plastic studs supporting the top layer at the center.
+In subsequent experiments, we measured the dynamic real-
+time beam deﬂection performance of the RIS prototype. Due
+to the limitations of the experimental system, we provided
+the one-dimensional beam scanning results of the RIS in the
+xoz-plane. By setting different phase codes into the RIS, the
+radiation patterns of the beams with different deﬂection angles
+at 3.4 GHz, 4.9 GHz, and 5.8 GHz were obtained, as shown in
+Fig. 8. The main beams all point to speciﬁc directions, verifying
+the correctness of the theoretical design. As the beam deﬂection
+angle increases, the beam deﬂection performance deteriorates.
+Additionally, considering the application scenario of oblique
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 12:28:46 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 4 =====
+4616
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 23, NO. 12, DECEMBER 2024
+Fig. 9.
+Schematic of RIS-assisted intelligent wireless communication system.
+incidence, we provided the radiation patterns of the incident
+wave at different incidence angles with the beams pointed in
+speciﬁc directions, as shown in Fig. 8(d). It can be seen that the
+proposed RIS can still maintain good beam direction under 45°
+oblique incidences.
+IV. RIS-ASSISTED WIRELESS COMMUNICATION SYSTEM
+In this section, we constructed a RIS-assisted intelligent wire-
+lesscommunicationsystemandveriﬁedthattheRIScanenhance
+the quality of wireless communication. The system consists
+of a transmitting horn antenna, a receiving horn antenna, a
+software-deﬁned radio device (ANTSDR-E310), a RIS, and host
+computers, as shown in Fig. 9. The transmitting horn antenna
+is placed 1.2 m from the RIS, with the incident wave direction
+alignedalongthenormaldirectionoftheRIS.Thereceivinghorn
+antenna is positioned at a 45° angle to the normal of the RIS. By
+controlling the FPGA module through another host computer,
+the phase coding data is written in real time to deﬂect the incident
+wave in the desired direction. Thus, the blind area coverage
+of the wireless communication network is enhanced, and the
+communication quality in the required area is improved. The
+original image information can be obtained by demodulating
+the received signal.
+For veriﬁcation, we selected the 3.4 GHz and 4.9 GHz bands
+of 5G communication, as well as the 5.8 GHz band of Wi-Fi
+and Bluetooth signals, to transmit and receive different image
+information. Table I illustrates the original images sent at dif-
+ferent frequencies using phase shift keying (de)modulation, the
+images received with the RIS switched OFF and reﬂecting the
+incident wave in the normal direction, and the images received
+after the RIS deﬂects the incident wave toward the receiving
+horn antenna. It can be observed that image transmission errors
+occur when the RIS is not functioning, resulting in image dis-
+tortion. Conversely, the communication quality at the speciﬁc
+location is signiﬁcantly improved when the RIS is operational,
+verifying the RIS’s effectiveness in enhancing indoor wireless
+communication. The relatively good images received when the
+RIS is switched OFF are due to the side lobes of the transmitting
+antenna and scattered waves contributing to the propagation
+link, allowing part of the wireless signal to be received by the
+receiving antenna.
+Table II summarizes the comparison of the design perfor-
+mance of the proposed RIS with some previous related works.
+TABLE I
+COMPARISON OF IMAGES IN DIFFERENT SITUATIONS
+TABLE II
+PERFORMANCE COMPARISON WITH SOME REPORTED WORKS
+Our design achieves a stable phase difference of 180° ± 30°
+within a maximum relative bandwidth of 74.3% and has the
+maximum beam deﬂection range. The proposed suspended RIS
+exhibits excellent ultrawideband and beam deﬂection properties.
+V. CONCLUSION
+In this letter, a 1-bit suspended RIS with an ultrawideband
+phase response was designed, fabricated, and measured. The
+measured results show that the RIS can achieve dynamic beam
+deﬂection with a scanning range of ± 60° within the working
+frequency. The measured results are in good agreement with the
+simulation results, verifying the performance of the proposed
+RIS. Moreover, a RIS-assisted wireless communication system
+was constructed for experimental veriﬁcation. The feasibility
+and effectiveness of RIS for enhancing wireless communica-
+tion quality have been demonstrated. The proposed RIS of-
+fers promising application prospects in the new generation of
+intelligent wireless communication systems.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 12:28:46 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 5 =====
+SHI et al.: ULTRAWIDEBAND 1-BIT SUSPENDED RECONFIGURABLE INTELLIGENT SURFACE FOR ENHANCING WIRELESS COVERAGE
+4617
+REFERENCES
+[1] S.Sunetal.,“Gradient-indexmeta-surfacesasabridgelinkingpropagating
+waves and surface waves,” Nature Mater., vol. 11, no. 5, pp. 426–431,
+2012.
+[2] G. Li, H. Shi, J. Yi, B. Li, A. Zhang, and Z. Xu, “Transmission-reﬂection-
+integratedmetasurfacesdesignforsimultaneousmanipulationofphaseand
+amplitude,” IEEE Trans. Antennas Propag., vol. 70, no. 7, pp. 6072–6077,
+Jul. 2022.
+[3] T. Cui, M. Qi, X. Wan, J. Zhao, and Q. Cheng, “Coding metamaterials,
+digital metamaterials and programmable metamaterials,” Light-Sci. Appl.,
+vol. 3, no. 1, 2014, Art. no. 9.
+[4] Q. Wang et al., “Optically reconﬁgurable metasurfaces and photonic
+devices based on phase change materials,” Nature Photon., vol. 10, no. 1,
+pp. 60–65, 2016.
+[5] Y. Li, H. Li, Y. Wang, Y. Wang, and Q. Cao, “A novel switchable
+absorber/linear converter based on active metasurface and its application,”
+IEEE Trans. Antennas Propag., vol. 68, no. 11, pp. 7688–7693, Nov. 2020.
+[6] O. Yurduseven, D. L. Marks, T. Fromenteze, and D. Smith, “Dy-
+namically reconﬁgurable holographic metasurface aperture for a mills-
+cross monochromatic microwave camera,” Opt. Exp., vol. 26, no. 5,
+pp. 5281–5291, 2018.
+[7] J. Zhao et al., “Programmable time-domain digital-coding metasurface
+for non-linear harmonic manipulation and new wireless communication
+systems,” Nat. Sci. Rev., vol. 6, no. 2, pp. 231–238, 2019.
+[8] H. Xu, S. Xu, F. Yang, and M. Li, “Design and experiment of a dual-
+band1bitreconﬁgurablereﬂectarrayantennawithindependentlarge-angle
+beam scanning capability,” IEEE Antennas Wireless Propag. Lett., vol. 19,
+no. 11, pp. 1896–1900, Nov. 2020.
+[9] Qi. Hu et al., “Broadband wireless communication with space-time-
+varying polarization-converting metasurface,” Nanophotonics, vol. 12,
+no. 7, pp. 1327–1336, 2023.
+[10] H. Zhao et al., “Metasurface-assisted massive backscatter wireless com-
+munication with commodity Wi-Fi signals,” Nature Commun., vol. 11,
+2020, Art. no. 3926.
+[11] L. Zhang et al., “A wireless communication scheme based on space-
+and frequency-division multiplexing using digital metasurfaces,” Nature
+Electron., vol. 4, pp. 218–227, 2021.
+[12] H. Xue et al., “A reconﬁgurable metasurface enhancing signal coverage
+for wireless communication using reduced numbers of p-i-n diodes,” IEEE
+Trans. Microw. Theory Techn., vol. 72, no. 3, pp. 1964–1978, Mar. 2023.
+[13] R. Deng et al., “Reconﬁgurable holographic surfaces for ultra-massive
+MIMO in 6G: Practical design, optimization and implementation,”
+IEEE J. Sel. Areas Commun., vol. 41, no. 8, pp. 2367–2379, Aug.
+2023.
+[14] H. Li et al., “Programmable metasurface for front-back scattering com-
+munication,” Nanophotonics, vol. 12, no. 18, pp. 3653–3661, 2023.
+[15] T. Li et al., “An ultra-wideband low-loss reconﬁgurable metasurface
+element with 1-bit resolution,” IEEE Antennas Wireless Propag. Lett.,
+vol. 23, no. 4, pp. 1206–1210, Apr. 2024.
+[16] J. Yin, Q. Lou, H. Wang, Z. N. Chen, and W. Hong, “Broadband dual-
+polarized single-layer reﬂectarray antenna with independently control-
+lable 1-bit dual beams,” IEEE Trans. Antennas Propag., vol. 69, no. 6,
+pp. 3294–3302, Jun. 2021.
+[17] D. Wang et al., “Design of a 1-bit broadband space-time-coding digital
+metasurface element,” IEEE Antennas Wireless Propag. Lett., vol. 19,
+no. 4, pp. 611–615, Apr. 2020.
+[18] H. Wang et al., “Broadband and programmable amplitude-phase-joint-
+coding information metasurface,” ACS Appl. Mater. Interfaces, vol. 14,
+pp. 29431–29440, 2022.
+[19] H. Yang, F. Yang, S. Xu, M. Li, X. Cao, and J. Gao, “A 1-bit multipolar-
+ization reﬂectarray element for reconﬁgurable large-aperture antennas,”
+IEEE Antennas Wireless Propag. Lett., vol. 16, pp. 581–584, 2017.
+[20] B. Liu et al., “Generation of an orbital-angular-momentum-mode-
+reconﬁgurable beam by a broadband 1-bit electronically reconﬁgurable
+transmitarray,” Phys. Rev. Appl., vol. 15, 2021, Art. no. 044035.
+[21] L. Wang et al., “Suspended metasurface for broadband high-efﬁciency
+vortex beam generation,” Materials, vol. 15, 2022, Art. no. 707.
+[22] S. S. Syed Nasser, W. Liu, and Z. N. Chen, “Wide bandwidth and
+enhanced gain of a low-proﬁle dipole antenna achieved by integrated
+suspended metasurface,” IEEE Trans. Antennas Propag., vol. 66, no. 3,
+pp. 1540–1544, Mar. 2018.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 12:28:46 UTC from IEEE Xplore.  Restrictions apply. 

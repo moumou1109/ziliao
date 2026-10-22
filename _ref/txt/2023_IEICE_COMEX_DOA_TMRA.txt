@@ -1,0 +1,313 @@
+IEICE Communications Express, Vol.12, No.8, 426–431
+Special Cluster in Emerging Communication Technologies
+in Conjunction with Main Topics of ICETC2022
+DOA estimation and object
+localization based on
+multi-harmonic multi-beam
+characteristic of 1-bit
+time-modulated reﬂectarray
+Xianbo Cao A1, a), Qiang Chen A1, Toru Tanaka2, Masaki Kozai2,
+and Hiroya Minami2
+1 School of Engineering, Tohoku University
+6–6 Aramaki Aza Aoba, Aoba-ku, Sendai, Miyagi 980–8579, Japan
+2 Space Environment and Energy Laboratories, NTT
+3–9–11 Midori-cho, Musashino-shi, Tokyo 180–8585, Japan
+a) cao.xianbo.s7@dc.tohoku.ac.jp
+Abstract:
+A method for direction of arrival (DOA) estimation and object
+localization based on 1-bit time-modulated reﬂectarray (TMRA) is presented.
+The multi-harmonic multi-beam (MHMB) characteristic of 1-bit TMRA is
+analyzed ﬁrstly to reveal the mapping relationship between target’s angular
+feature and received spectrum feature.
+Then the operating principle and
+perception procedures for single and multiple targets scenarios are discussed in
+detail. Beneﬁted from the mapping relationship, the proposed method shows
+ﬂexibility on simultaneous multi-target detection, which is diﬃcult to realize
+by conventional methods. Furthermore, the proposed method enables the
+environment-perception capability of existing 1-bit TMRA without increasing
+the system complexity, making it suitable for the realization of a low-cost
+multifunctional reconﬁgurable intelligent surface (RIS).
+Keywords: time modulation (TM), 1-bit TMRA, DOA estimation, RIS
+Classiﬁcation: Antennas and Propagation
+References
+[1] E. Basar, M.D. Renzo, J.D. Rosny, M. Debbah, M.-S. Alouini, and R. Zhang,
+“Wireless communications through reconﬁgurable intelligent surfaces,” IEEE
+Access, vol. 7, pp. 116753–116773, 2019. DOI: 10.1109/access.2019.2935192
+[2] T. Otsuji, K. Iwatsuki, H. Yamada, and M. Yashima, “Concept of resilient electric
+power and information communication technology (R-EICT) converged network
+systems based on overall optimization of autonomous decentralized cooperative
+control of DC microgrids,” 2021 IEEE Power & Energy Society Innovative
+Smart Grid Technologies Conference (ISGT), pp. 1–5, 2021. DOI: 10.1109/
+isgt49243.2021.9372169
+[3] J.Y. Dai, W.K. Tang, J. Zhao, X. Li, Q. Cheng, J.C. Ke, M.Z. Chen, S. Jin,
+and T.J. Cui, “Wireless communications through a simpliﬁed architecture based
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+426
+IEICE Communications Express, Vol.12, No.8, 426–431
+on time-domain digital coding metasurface,” Advanced Materials Technologies,
+vol. 4, no. 7, 1900044, 2019. DOI: 10.1002/admt.201900044
+[4] M. Gholami and M. Neshat, “A direct antenna modulator with beam steering
+capability based on space-time-coding arrays,” IEEE Trans. Antennas Propag.,
+vol. 70, no. 10, pp. 9282–9291, 2022. DOI: 10.1109/tap.2022.3184546
+[5] J. Zhao, X. Yang, J.Y. Dai, Q. Cheng, X. Li, N.H. Qi, J.C. Ke, G.D. Bai, S.
+Liu, S. Jin, A. Alù, and T.J. Cui, “Programmable time-domain digital-coding
+metasurface for non-linear harmonic manipulation and new wireless communi-
+cation systems,” National Science Review, vol. 6, no. 2, pp. 231–238, 2018. DOI:
+10.1093/nsr/nwy135
+[6] X. Cao, Q. Chen, T. Tanaka, M. Kozai, and H. Minami, “A 1-bit time-
+modulated reﬂectarray for reconﬁgurable intelligent surface applications,” IEEE
+Trans. Antennas Propag., vol.71, no.3, pp.2396–2408, 2023. DOI: 10.1109/
+TAP.2022.3233659
+1
+Introduction
+RIS, deﬁned as an intelligent surface that can ﬂexibly modulate the reﬂected beam
+according to the requirements of the application scenario, has been rapidly and exten-
+sively studied in recent years as a potential key technology for future communication
+system such as the sixth-generation (6G) wireless system [1] and autonomous decen-
+tralized cooperative power and communication system [2]. With the help of RIS, it is
+envisioned that a new intelligent architectural paradigm integrating communication,
+sensing, localization, and recognition will be applied to the aforementioned system.
+Among them, TMRA becomes a potential candidate for RIS owing to its powerful
+beamforming capability which is realized by simultaneous control of units’ reﬂected
+amplitude and phase [3, 4]. Compared to other forms of TMRA, 1-bit TMRA is
+currently the most investigated because it oﬀers a good compromise between beam
+control eﬀectiveness, design complexity and cost [5, 6]. However, current TMRA
+research is basically focused on communication applications, while few research
+has been done to address its applications in aspect of intelligence, such as sensing,
+localization, and recognition, which should be the signiﬁcant advantages of RIS.
+In this article, we investigated methods to make 1-bit TMRA applied to environ-
+mental perception. Speciﬁcally, DOA estimation and object localization are realized
+by utilizing the MHMB characteristic of 1-bit TMRA. More importantly, due to the
+MHMB characteristic of the TM, the angular domain response of sensed targets can
+be mapped onto the frequency domain response of the 1-bit TMRA. As a result, the
+proposed method can clearly and quickly identify multiple targets simultaneously,
+which is diﬃcult to achieve using conventional methods. Furthermore, the proposed
+methods only need basic time sequence and common 1-bit TMRA conﬁguration,
+which makes it easy to realize with low cost.
+2
+Characteristic analysis of 1-bit TMRA
+2.1
+Theory of 1-bit TMRA concept
+Figure 1(a) shows a typical 1-bit TMRA conﬁguration which consists of feed antenna,
+TMRA and control board. Since the 1-bit TMRA is designed for RIS application,
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+427
+IEICE Communications Express, Vol.12, No.8, 426–431
+Fig. 1. Typical 1-bit TMRA conﬁguration.
+(a) System
+schematic. (b) A 1-bit TMRA prototype in [6]. (c)
+1-bit time function.
+the feed antenna’s location is placed in its far-ﬁled. The TMRA has the same
+structure with 1-bit RA whose elements have two states with opposite phase. The
+pre-designed speciﬁc time function generated by the control board is used to high-
+speed switch the states of reﬂection of each element, and thus realize the control
+of reﬂected beam. Figure 1(b) shows a photo of a 1-bit TMRA prototype from
+our previous work [6]. Figure 1(c) shows the 1-bit time function Umn(t) which has
+two level stages. For the mn-th element, the switch is switched to the two states
+periodically, and the corresponding turning times are denoted as ton,mn and tof f ,mn,
+where kTp,mn ≤τon,mn ≤τof f ,mn ≤(k + 1)Tp,mn and Tp,mn is the time of a com-
+plete switching cycle (denoted as a TM period), and k is an integer. Under these
+conditions, the scattering waveform generated by the TMRA with the term ej2π f0t
+explicitly included is mathematically expressed as
+f (t,θ, φ) = ej2π f0tF0(θ, φ)Umn(t)
+(1)
+where f0 is the frequency of the illuminating continues wave (CW) signal, F0(θ, φ)
+is the static scattering pattern of the array at center frequency f0. Controlled by the
+1-bit time function, the corresponding Fourier series coeﬃcients ah,mn of the mn-th
+element can be expressed as
+ah,mn =
+1
+Tp,mn
+∫to f f ,mn
+ton,mn
+gmn(t)e−j2πhfp,mntdt
+=
+
+
+2
+sin(πhτmn)
+πh
+e−jπh(τo f f ,mn+τon,mn),
+h , 0
+2τmn −1,
+h = 0
+(2)
+where gmn(t) is one period of Umn(t). The τon,mn and τof f ,mn are the normalized
+turn on/oﬀtimes of the mn-th element and are deﬁned by τon,mn = ton,mn/Tp,mn
+and τof f ,mn = tof f ,mn/Tp,mn. The τmn is the switch-on duration and is deﬁned by
+τmn = τof f ,mn −τon,mn. TM frequency fp,mn is deﬁned as the inverse of the TM
+period Tp,mn.
+Therefore, the scattering pattern of the h-th harmonic frequency component of
+1-bit TMRA can be expressed as:
+fh(t,θ, φ) = ej2π(f0+hfp,mn)tF0(θ, φ)ah,mn
+(3)
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+428
+IEICE Communications Express, Vol.12, No.8, 426–431
+It can be found that ah,mn, acting as an additional excitation, is added to each
+element, by which the scattering pattern of the array can be controlled. As a result,
+the 1-bit TMRA introduces a new degree of freedom to meet more challenging
+requirements of RIS applications.
+2.2
+Multi-harmonic multi-beam (MHMB) characteristic
+As ah,mn is the equivalent excitation introduced by TM, diﬀerent time functions
+correspond to other ah,mn and thus leads to diﬀerent control eﬀect of 1-bit TMRA.
+Here we consider a N-element linear 1-bit TMRA to illustrate the MHMB charac-
+teristic of 1-bit TMRA. As shown in Fig. 2(a), a speciﬁc set of time function, called
+scanning time sequence, is applied to the array. Speciﬁcally, array’s elements are
+“lit up” (i.e., one state of 1-bit function) in sequence and remain “oﬀ” (i.e., the other
+state of 1-bit function) at other times, as expressed in Eq. (4). In Fig. 2(a), the green
+zone corresponds to “1” state and others correspond to “−1” state. Note that the TM
+period Tp is same for each element.
+gn(t) =
+
+
+1,
+n −1
+N Tp ≤t ≤
+n
+NTp
+−1,
+elsewhere
+,
+1 ≤n ≤N
+(4)
+It can be referred from Eq. (2) and Eq. (4) that by the utilizing scanning time
+sequence the equivalent excitations of diﬀerent harmonics would have same am-
+plitudes and progressive phases. This would generate a speciﬁc set of scattering
+patterns. Figure 2(b) shows the theoretical calculation results of harmonics’ scatter-
+ing patterns for a linear 1-bit TMRA with 20 elements. A plane wave with vertical
+incidence is used to illuminate 1-bit TMRA in calculation. It can be observed that
+the main beams of diﬀerent harmonics appear sequentially and point to adjacent
+directions as the harmonic order changes, achieving multi-beam coverage in a large
+angular range. Note that the direction of the reﬂected wave at the center frequency
+is the specular reﬂection direction of the incident wave. This unique combination
+of harmonic scattering patterns is named MHMB characteristic, which is only de-
+termined by time sequence and element number. That is, the deviation angles of
+Fig. 2. MHMB characteristic of 1-bit TMRA. (a) Scanning
+time sequence. (b) Corresponding scattering patterns.
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+429
+IEICE Communications Express, Vol.12, No.8, 426–431
+each harmonic beam direction relative to the center frequency’s beam direction are
+known. As a result, the beam direction of a certain harmonic can be easily derived if
+its order and the beam direction of center frequency is known, which is the principle
+for applying 1-bit TMRA to realize DOA estimation and object localization.
+3
+Principle of applying 1-bit TMRA for DOA estimation and object lo-
+calization
+3.1
+Single target scenario
+Figure 3(a) shows the schematic diagram of 1-bit TMRA applied to DOA estimation.
+Both the receiving antenna (Rx) and the incoming signal to be recognized are located
+in the far-ﬁeld region of the 1-bit TMRA. The angles of the Rx and the incoming
+signal with respect to the normal of the aperture of 1-bit TMRA are θr and θi,
+respectively. When the incoming signal with an operating frequency of f0 propagates
+to the 1-bit TMRA controlled by the scanning time function with a TM frequency
+of fp, it would be reﬂected towards diﬀerent directions with diﬀerent frequencies
+based on HMHB characteristic. Now we have θi = θr + θh, where θh is the angle
+between the direction of the received harmonics and the Rx direction. Based on the
+aforementioned mapping relationship, the DOA can be derived from the spectrum
+response of signal captured by Rx. Once the dominant harmonic component (has
+maximum power level), denoted as ftarget, is found from the spectrum response, the
+order of dominant harmonic can be obtained as htarget = ftarget−f0
+fp
+. Then θh can be
+obtained from the Fig. 2(b) by comparing the beam direction diﬀerence with fhtarget
+and center f0. As a results, θi is derived, indicating a completed DOA estimation of
+Fig. 3. Principles and methods of environmental perception.
+(a) Single target DOA estimation.
+(b) Multi-target
+DOA estimation. (c) Single target object localization:
+ﬁrst step. (d) Single target object localization: second
+step.
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+430
+IEICE Communications Express, Vol.12, No.8, 426–431
+incoming signal.
+Furthermore, object localization can also be realized based on the MHMB
+characteristic of 1-bit TMRA. In this application, the antenna ﬁrst sends a CW
+signal with frequency of f0 to the 1-bit TMRA, and a speciﬁc harmonic component
+(denoted as ftarget) of the scattering waves would impinge the target, as shown in
+Fig. 3(c).
+Then the target would reﬂect the wave of ftarget component towards
+1-bit TMRA. Accordingly, ftarget component would be scattered again under the
+eﬀect of TM, as shown in Fig. 3(d). The following procedures are as same as the
+analysis of DOA estimation.
+Note that if the ﬁnal detected dominant harmonic
+component is fdetected, the actual order of harmonic which carries target’s angular
+feature htarget = 1
+2 · hdetected = 1
+2 · fdetected−f0
+fp
+. Thus, θh is obtained and the direction of
+object can be derived by θo = θr + θh.
+3.2
+Multi-target scenario
+Since diﬀerent directions correspond to diﬀerent harmonic components, it is possible
+to simultaneously realize multi-target perception. Limited by the paper length, here
+we only give an example of multi-target DOA estimation scenario to concisely
+demonstrate the operating principle.
+As shown in Fig. 3(b), there are two user
+signals with diﬀerent operating frequencies of f0_1 and f0_2. Diﬀerent from the
+single target scenario, two dominant harmonic components would appear in the
+spectrum response results and correspond to two detected directions. The other
+procedure of perception is as same as single target scenario. Note that the operating
+frequencies of targets should be diﬀerent to each other to ensure the TM eﬀect.
+Moreover, to avoid overlap of targets’ signal, the operating frequencies of each target
+f0_m should satisfy the following equation f0_i −f0_j , n fp,i, j ∈m,i , j,n ∈Z.
+4
+Conclusion
+A method to utilize the MHMB characteristic of 1-bit TMRA for DOA estimation
+and object localization was presented in this article. The theoretical calculation re-
+sults show that the MHMB characteristic establishes a mapping relationship between
+angular domain and frequency domain, which is suitable for realizing environmental
+perception. On this basis, the perception principle and procedures of DOA estima-
+tion and object localization for both single target and multi-target scenarios were
+illustrated and discussed in detail. Practical consideration regarding to avoid overlap
+of targets’ signal is also discussed. The eﬀectiveness of the proposed method needs
+to be veriﬁed by further experimental studies. Nevertheless, the ﬁndings of this
+study can be used as a resource for reﬁning the theory of environmental perception
+technology and extending the applications of 1-bit TMRA.
+Acknowledgments
+This work was supported in part by the Program on Open Innovation Platform
+with Enterprises, Research Institute and Academia, Japan Science and Technology
+Agency (JST, OPERA, JPMJOP1852).
+© IEICE 2023
+DOI: 10.1587/comex.2023TCL0008
+Received February 11, 2023
+Accepted March 13, 2023
+Publicized
+March 22, 2023
+Copyedited August 1, 2023
+431

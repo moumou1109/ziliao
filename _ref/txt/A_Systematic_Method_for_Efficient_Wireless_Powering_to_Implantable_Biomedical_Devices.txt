@@ -1,0 +1,1304 @@
+
+===== PAGE 1 =====
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+2745
+A Systematic Method for Efficient Wireless
+Powering to Implantable Biomedical Devices
+Xianbo Cao , Graduate Student Member, IEEE, Hiroyasu Sato , Member, IEEE,
+Kai-Da Xu , Senior Member, IEEE, Wen Jiang, Member, IEEE, Shuxi Gong, Member, IEEE,
+and Qiang Chen , Senior Member, IEEE
+Abstract— Wireless power transfer (WPT) technology has
+played a vital role in the rapid development of biomedical
+devices. While several single methods to improve WPT effi-
+ciency have been reported, the lack of integrality in these
+single methods limits the effect of the improvements. In this
+investigation, we analyze the physical process of a typical WPT
+scenario and find that the high propagation loss consisting
+of in-tissue attenuation and interface reflection degrades the
+WPT performance. A systematic method to comprehensively
+improve WPT efficiency is then proposed. Specifically, a Fresnel
+zone plate (FZP) is applied against the attenuation of inner
+biological tissue, and a practical air layer-artificial matching layer
+(AL-AML) is applied to decrease the reflection on the surface of
+biological tissue. According to a simulation of possible analytical
+models, the efficiency is significantly improved when using the
+proposed method. In an experiment with an implant depth of
+20 mm, the proposed systematic method is found to enhance
+maximum relative received power by 12 dB, with an almost
+15-fold increase in efficiency over the conventional system with
+just a transmitter (Tx) and a receiver (Rx). It is also verified that
+the improvement in efficiency is greater in the systematic method
+than in single methods. Also, various misalignment tolerances
+between the proposed structures and the Rx are determined from
+the coupling strength of the proposed WPT system. The results
+of this investigation show the potential of the proposed systematic
+method for further improvements in WPT efficiency.
+Index
+Terms— Implantable,
+propagation
+loss,
+systematic
+method, wireless power transfer (WPT).
+I. INTRODUCTION
+I
+N RECENT years, implantable medical devices for sens-
+ing, drug delivery, and local stimulation have played an
+increasingly important role in modern medical treatments.
+Manuscript received 25 May 2022; revised 14 November 2022; accepted
+20 December 2022. Date of publication 31 January 2023; date of current ver-
+sion 6 March 2023. This work was supported in part by the Program on Open
+Innovation Platform with Enterprises, Research Institute and Academia, Japan
+Science and Technology Agency (JST, OPERA) under Grant JPMJOP1852.
+(Corresponding authors: Xianbo Cao; Kai-Da Xu.)
+Xianbo Cao, Hiroyasu Sato, and Qiang Chen are with the Department of
+Communications Engineering, Tohoku University, Sendai 980-8579, Japan
+(e-mail: cao.xianbo.s7@dc.tohoku.ac.jp).
+Kai-Da Xu was with the Department of Communications Engineering,
+Tohoku University, Sendai 980-8579, Japan. He is now with the School
+of Information and Communications Engineering, Xi’an Jiaotong University,
+Xi’an 710049, China (e-mail: kaidaxu@ieee.org).
+Wen Jiang and Shuxi Gong are with the National Key Laboratory of
+Antennas and Microwave Technology, Xidian University, Xi’an 710071,
+China.
+Color versions of one or more figures in this article are available at
+https://doi.org/10.1109/TAP.2023.3240005.
+Digital Object Identifier 10.1109/TAP.2023.3240005
+Fig. 1.
+Typical scenarios of WPT technology applied to implantable
+biomedical devices. (a) High propagation loss occurs in the WPT process.
+(b) Proposed systematic method for improving WPT efficiency. (c) Design
+principle of the proposed systematic method.
+These devices help to facilitate the management of medical
+disorders over a broad range of applications through preventive
+and postsurgery monitoring [1]. However, there are prob-
+lems and risks, which have yet to be successfully addressed,
+including battery leakage, battery exhaustion, and replacement
+challenges. Wireless power transfer (WPT) as an implantable
+power supply has been given considerable research attention
+in recent years as means of enabling the miniaturization of
+implantable devices [2]. Fig. 1(a) shows typical scenarios
+of wireless powering into biomedical devices: the wireless
+powering of a pacemaker and a capsule endoscope.
+Most of the investigations on the wireless delivery of
+energy to implantable devices have been operated in the
+low-frequency range (kHz–MHz). In low-frequency environ-
+ments, most transmitted energy is stored in fields rather
+than by radiation. The wireless link between transmitter
+(Tx) and receiver (Rx) can be classified as electromagnetic
+(EM) coupling [3], [4], [5], [6] and magnetic resonance
+coupling [7], [8], [9], [10], [11], [12], [13] based on EM
+near-field coupling and the share of magnetic flux, respec-
+tively. In these studies, the Tx and Rx usually adopt coils
+and printed spiral antennas. The main attempt is to design
+the configuration of coils to improve transfer efficiency. In a
+recently reported new method for charging an implantable
+0018-926X © 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+See https://www.ieee.org/publications/rights/index.html for more information.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 2 =====
+2746
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+cardiac pacemaker [13], a well-designed double sandwiched
+structure for both Tx and Rx is proposed to improve the
+efficiency of the WPT system. However, because the system is
+operated at 160 kHz, the Rx coil is as large as the pacemaker.
+Recently, metasurfaces have been employed to improve the
+performance of the wireless power link [14], [15], [16]. For
+instance, the negative-permeability metasurface integrated into
+the WPT system in a recent study by Li et al. [16] consists
+of a conformal magnetic resonator Tx coil and a dual-band
+Rx coil. By utilizing a negative-permeability metasurface,
+the WPT system working at 430 MHz in their study was
+reported to achieve a further operation distance and a coupling
+enhancement of up to 15.7 dB. However, the large size of
+the coils limits their application in implantable devices and
+presents a severe challenge to near-field coupling technology
+at the low-frequency range [2].
+Recently, WPT systems with operation frequencies from
+the sub-GHz to the low GHz range have been attract-
+ing
+more
+attention
+due
+to
+their
+higher
+transfer
+effi-
+ciency
+and
+potential
+for
+dramatic
+miniaturization
+[17],
+[18], [19], [20], [21], [22], [23], [24], [25], [26]. In a study on
+the optimal frequencies of different types of biological tissue
+by Poon et al. [17], when the dimension of the transmit antenna
+is much smaller than the wavelength in the GHz range, the
+optimal frequency was found to be in the GHz range, and
+when the dimension is similar to the wavelength in the sub-
+GHz range, the optimal frequency was found to be in the
+sub-GHz range. In an experiment performed on a live pig
+to analyze the propagation loss of RF signal for in-body to
+in-body implants [20], an ISM radio band frequency range
+between 2.4 and 2.5 GHz was found to be optimal for the
+multinode pacemaker technology due to the size constraints
+of the capsule antenna. These kinds of WPT techniques can
+be categorized as interference-based WPT, which includes
+EM radiation and multipath propagation. Adaptive focusing
+technologies for the wireless powering of implanted devices
+have recently been reported [21], [22]. By performing the
+phase-conjugated operation on the incident signal (transmitted
+by Rx) and then transferring the signal back to the source,
+coherent RF power can be achieved at the Rx. This has been
+shown to improve WPT efficiency.
+Although several studies on improving WPT efficiency
+have been reported, these studies show a lack of systematic
+consideration of WPT scenarios [27]. The entire typical WPT
+process is clearly demonstrated in Fig. 1(a). When EM waves
+propagate from air into biological tissue, the reflection at the
+interface of air and biological tissue, and the attenuation in bio-
+logical tissue appear in sequence, resulting in high propagation
+loss. This has been shown to severely reduce the efficiency of
+the WPT. Therefore, the key challenge in designing an efficient
+WPT system for application to implantable devices is to reduce
+propagation loss. In other words, reflection and attenuation
+should be analyzed simultaneously.
+Near-field-focused (NFF) antenna can focus the EM field
+at a point in the antenna near-field region that determines an
+increase in the EM power density in a size-limited region close
+to the antenna aperture [28], [29], [30], [31]. The Fresnel zone
+plate (FZP) lens has been considered to implement the NFF
+planar lens antenna, which has the benefit of being lighter and
+easier to design and manufacture compared to the traditional
+NFF antenna, such as array antennas and reflectarrays. How-
+ever, the traditional design theory cannot directly design the
+FZP applied to biological tissue due to the different media of
+the application scenarios. Therefore, a design method for FZP
+considering the characteristics of biological tissues is required.
+Impedance matching is a fundamental concept in EM theory
+that can eliminate the reflection at the interface. A lot of work
+has been reported recently using a matching layer (ML) or
+metasurface/metamaterial to improve the efficiency of WPT.
+However, the following problems still exist: the operating prin-
+ciples are not clearly explained, and the used matching layer
+is limited by available thickness and substrate [23], [32]. This
+indicates that a practically available and specially designed
+matching layer is required for biological tissue WPT appli-
+cations, in which the operating mechanism can be clearly
+explained by classical theory. As recently reported in [33],
+a new matching technology named artificial ML (AML) is
+proposed that can design matching layer by substrates with
+arbitrary permittivity even though the limitation of the thick-
+ness of substates still makes matching impractical.
+A systematic method for efficient wireless powering to
+implantable medical devices and the design principle are
+presented in Fig. 1(b) and (c). The method is based on
+an analysis of the two main causes of high propagation
+loss: in-tissue attenuation and interface reflection. To decrease
+the propagation loss and comprehensively improve the WPT
+efficiency, on the one hand, we improve the traditional FZP
+design method by considering permittivity change in different
+areas and propose FZP for in-tissue energy focusing against
+the in-tissue attenuation; on the other hand, we propose a
+novel matching technology named air layer-AML (AL-AML)
+to decrease the interface reflection by introducing air layer into
+the design of AML to break the limitation of using substrates
+with restricted thickness and make matching with biological
+tissue feasible. The efficiency of this WPT with a combined
+FZP and AM-AML system was determined and then applied to
+an implantable biomedical device for verification. To the best
+of our knowledge, this is the first time a systematic method
+instead of existing single methods is proposed to realize an
+efficient WPT system applied to biomedical devices.
+This article is organized as follows. In Section II, the
+systematic methods and corresponding solutions are intro-
+duced along with the design process of the proposed FZP
+and AL-AML. In Section III, an analysis and a discussion of
+the four models are presented to clearly demonstrate the per-
+formance of the proposed systematic method. In Section IV,
+experiments are performed to verify the effectiveness of the
+proposed methods. Finally, a brief conclusion of this work is
+drawn in Section V.
+II. DESIGN METHODS AND PROCESS
+A 2.45 GHz operation frequency, which is within the
+Industrial Scientific Medical Band (ISMB), was chosen for this
+design. While the operation frequency is not considered critical
+in the design, the advantages of operating at a higher frequency
+on miniaturization make it essential in the design of implanted
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 3 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2747
+Fig. 2.
+Process of designing an FZP applied to in-tissue focusing. (a) Fun-
+damental structure of an FZP. (b) Application scenario of the proposed FZP.
+devices. Also, smaller wavelengths at higher frequencies allow
+more precise control in the distribution of EM waves so that
+critical organs can be avoided. Besides, the smaller wavelength
+makes a larger electrical size for a fixed physical size, which
+is necessary for the design of lenses and metasurfaces for
+obtaining better performance, according to the antenna theory.
+A. Consideration of Biological Tissue
+Biological tissue is a kind of lossy media with elec-
+trical characteristics that change with frequency. Different
+liquid mixtures of sugar, salt, organic compound solution,
+and deionized water have been used to simulate biological
+tissue in studies [16], [34]. However, comparing biological
+tissue to other mediums inevitably leads to inaccuracies.
+The human body equivalent liquids (HBEL, MBBL-1900-
+3800V3) produced by Schmid & Partner Engineering AG
+(SPEAG) is a liquid with dielectric parameters that simulate
+the body-tissue parameters defined in the specific absorption
+rate (SAR) measurement guide [35]. The dielectric param-
+eters of HBEL are matched to the target tissue parameters
+over a certain frequency range. For accurate comparison
+and discussion, HBEL is used to imitate biological tissue
+(muscle) in both simulation analysis and experiments in this
+work.
+B. Fresnel Zone Plate Applied Against Attenuation of
+Biological Tissue
+When EM waves propagate inner biological tissue, large
+attenuation will appear, and the WPT efficiency will be
+reduced due to the high conductivity of biological tissue.
+Therefore, one of the methods to increase WPT efficiency is
+to decrease the extent of attenuation.
+The FZP consists of a set of radially symmetric opaque
+and transparent rings. When the EM waves encounter the
+zone plate, they diffract around the opaque zones, causing
+the cophase components to interfere at the desired focal point
+and create high field density. Since their invention, FZPs have
+been used to focus energy as a lens at optical and microwave
+frequencies [36]. Fig. 2(a) shows the fundamental structure
+of the FZP. Parameter a is the source point distance, which is
+defined as the distance between the Tx and the FZP. Parameter
+b is the focal point distance, which is defined as the distance
+between the Rx and the FZP. λ0 is the free-space wavelength
+at 2.45 GHz. The radius rm of each Fresnel zone can be
+Fig. 3.
+Normalized E-field magnitude distribution along the x-axis for a
+different number of zone plates.
+calculated using the following equation [37]:
+q
+a2 + r2m+
+q
+b2 + r2m −(a + b) = mλ0
+2 ,
+m = 1, 2, 3, . . .
+(1)
+The focusing property of FZP can be used to accumulate
+energy in biological tissue against the attenuation of EM
+waves. However, (1) is no longer useful in this application.
+It can be seen from (1) that the design of the FZP in free space
+is only related to the wave path difference. In this work, the
+two sides of the FZP are air and biological tissue, respectively,
+as shown in Fig. 2(b). It should be noted that the characteristics
+of the two media are totally different. There, it is necessary to
+design an FZP with effective focusing characteristics between
+different media.
+The principle of focusing is cophase superposition. It must
+be noted, however, that the influence of biological tissue is the
+wavelength change of the EM waves, which occurs largely due
+to high permittivity. That is, in order to focus energy, the wave
+phases of different paths at desired focal point are required
+to be the same regardless of the changes in the wavelength.
+Therefore, assuming that the relative permittivity of media
+on both sides are εr1 and εr2, by considering the influence
+of permittivity and in cophase superposition point of view,
+the design equation of FZP can be amended to the following
+equation:
+√εr1 ·
+q
+a2 + r2m + √εr2 ·
+q
+b2 + r2m −
+ √εr1 · a + √εr2 · b
+
+= mλ0
+2 ,
+m = 1, 2, 3, . . .
+(2)
+By inputting εr1 and εr2 and selecting proper a and b
+according to the condition of the WPT environment, the effec-
+tive FZP can be designed. Note that the number of zone plates
+is a key parameter that determines the focusing effect and
+should be properly chosen according to the actual application.
+Fig. 3 shows the normalized electric field (E-field) magnitude
+versus the x-axis value for different numbers of zone plates.
+Note that the Tx is a dipole antenna and the Rx is omitted in
+this simulation to clearly observe the E-field distribution at the
+focal point. It can be seen that, when the number of zone plates
+increases from 1 to 3, the normalized E-field magnitude around
+the focusing point will be increased significantly. It is indicated
+that the number of zone plates should be greater than or equal
+to 3 to obtain a significant focusing effect. However, when
+the number of zone plates continues to increase over 3, the
+E-field magnitude will be not further focused anymore. This
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 4 =====
+2748
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+Fig. 4.
+Structure of the proposed FZP.
+TABLE I
+PARAMETERS OF THE PROPOSED FZP
+is because the illumination efficiency of the FZP decreases as
+the number of zone plates increases. The huge loss inside the
+HBEL also reduces the contributions of the zone plates placed
+at a distance. It was found that a larger number of zone plates
+do not result in a significant improvement in the focusing
+effect: it only increases the system volume. Therefore, three
+zone plates are included in the design of the FZP, as shown
+in Fig. 4. All design parameters are listed in Table I. The
+simulation results and discussion are given in Section III.
+C. Air Layer-Artificial Matching Layer Applied to Reducing
+Reflection of Biological Tissue
+Another reason for generating propagation loss that causes
+the deterioration of WPT efficiency is the interface reflection
+when EM wave propagates from air to biological tissue
+of high permittivity. An matching layer is a basic concept
+and an example of impedance matching technologies in EM
+theory. By choosing the proper permittivity and thickness
+of the substrate of matching layer, the interface reflection
+can be eliminated. According to the EM theory, the relative
+permittivity εr3 and thickness d can be calculated using the
+following equation [38]:
+εr3 = √εr1εr2
+d = 1
+4(2n + 1)λ3,
+n = 0, 1, 2, . . .
+(3)
+where εr1 and εr2 refer to the relative permittivities of
+medium 1 and medium 2, respectively, and λ3 is the wave-
+length in the matching layer. The permittivity and the thickness
+of the matching layer are determined by medium 1 and
+medium 2. For this reason, it is almost impossible to realize
+matching by the limited materials suitable for use in this type
+of device.
+Recently, a kind of matching technology referred to as
+AML was reported by Yang et al. [33]. By introducing a
+metasurface into the matching analysis, an matching layer
+using arbitrary permittivity is achieved. However, the fixed
+Fig. 5.
+Matching mechanism of the AL-AML. (a) Equivalent transmission
+line model. (b) Matching process using the Smith chart.
+thickness of the substrate is still a limitation in AML design,
+which makes it impractical in applications. To solve this
+problem, in this investigation, we propose a novel practical
+matching technology, which can be applied to the surface
+matching of biological tissue. This design, which we refer
+to as the AL-AML, introduces an air layer into the design of
+the AML. The problem posed by a substrate with restricted
+thickness is solved by transferring the requirement of thickness
+from the substrate to the air layer. In this way, matching layers
+with substrates of arbitrary permittivity and thickness can be
+designed.
+To illustrate the matching mechanism of the AL-AML,
+an equivalent transmission line model is drawn in Fig. 5(a).
+The air and the biological tissue are represented with different
+characteristic admittances by the following equation:
+Yi =
+p
+εi/µi,
+i = 1, 2
+(4)
+where εi and µi are the permittivities and permeabilities
+of corresponding media, respectively. AL-AML is inserted
+between the air and the biological tissue to achieve total
+transmission. The proposed AL-AML consists of three parts:
+the substrate, the metasurface (capacitive), and an air layer.
+When an arbitrary substrate is given, impedance matching will
+be achieved by the use of a proper metasurface and an air layer.
+The determinations of susceptance of the metasurface (BMS)
+and thickness of the air layer are discussed below. Four key
+points A, B, C, and D with characteristic admittances of YA,
+YB, YC, and YD are also marked. Note that YA is equal to
+Y1, and YD is equal to Y2.
+The matching procedure in the Smith charts is also plotted
+in Fig. 5(b) for a clear demonstration. First, YA and YD are
+given. YA is the susceptance at the left-hand side (source side)
+of the substrate, and YB is the susceptance at the other side
+(load side). Since the substrate can be regarded as a segment
+of a lossless transmission line, YB can be obtained by the
+anticlockwise moving of YA along the equal standing-wave
+ratio (SWR) circle with a certain electric length of trans-
+mission line in the Smith chart. The electric length can be
+calculated when the permittivity and thickness of the substrate
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 5 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2749
+TABLE II
+PARAMETERS IN THE DESIGN PROCESS OF THE PROPOSED AL-AML
+are given. After determining YB, the next step is to make
+YD equal to YB through the metasurface and the air layer.
+The air layer can also be regarded as a segment of a lossless
+transmission line; therefore, YC can be obtained by clockwise
+moving YD along the equal SWR circle while considering the
+relative location of YC and YD. On the other hand, because
+the metasurface can be regarded as a shunt susceptance, YC
+can be obtained by moving YB anticlockwise along the equal
+conductance circle while considering the relative location of
+YC and YB. The point of intersection between the equal SWR
+circle and the equal conductance circle is the position of YC.
+The susceptance value of the metasurface is determined by the
+susceptance at point C. The air layer thickness d is determined
+by the path length from point C to point D. In this work,
+we use polyphenylene ether (PPE) as the substrate with a
+permittivity of 3.3 and a thickness of 1.2 mm. Through the
+analysis above, the desired susceptance of the metasurface
+and the thickness of air layer are 0.0056 S and 7.06 mm,
+respectively. The related parameters of the design process are
+summarized in Table II.
+In summary, the matching procedure is similar to a single
+stub shunt tuning circuit surrounded by two segments of the
+transmission line with different characteristic admittances in
+the transmission line theory. More importantly, the air layer
+is introduced to act as a segment of “substrate.” As a result,
+the AL-AML can use arbitrary substrates, which is no longer
+limited by available substrates with specific permittivity and
+thickness.
+After analyzing the circuit model, the next step is to design
+a metasurface with a required susceptance. Various metallic
+shapes (dipoles, crosses, patches, etc.) can be used to design
+the metasurface, and a square loop is chosen here due to its
+simplicity and its capability to achieve both capacitive and
+inductive susceptances. The configuration of the AL-AML unit
+is shown in Fig. 6(a). It can be seen that the AL-AML consists
+of a substrate, a metasurface, and an air layer, respectively. The
+metasurface is printed at the bottom of the substrate, and the
+air layer is inserted between the metasurface and HBEL. The
+design frequency is set at 2.45 GHz. In Fig. 6(a), rl is unit
+periodicity, t is the thickness of the given substrate, and d is
+the thickness of air layer determined in the aforementioned
+steps. ro and rs are the side length and width of the metallic
+square loop, respectively. When t and d are given, the equiv-
+alent susceptance can be achieved by selecting proper rl, ro,
+and rs. The parameter values of the AL-AML unit are given
+in Table III.
+For use in verifying the design, the equivalent transmission
+line model and the unit model discussed above are calculated
+in an advanced design system (ADS) and a full-wave simu-
+lator high-frequency structure simulator (HFSS), respectively.
+Fig. 6.
+Proposed AL-AML unit. (a) Configuration of the designed AL-AML
+unit. (b) Simulated S-parameter results.
+TABLE III
+PARAMETERS OF THE PROPOSED AL-AML UNIT
+Specifically, the simulation in HFSS is performed under the
+Floquet ports and periodic boundary conditions. The simulated
+S-parameters are plotted in Fig. 6(b). It can be seen from the
+|S11| curve that the minimum value of reflection is 2.45 GHz,
+and |S21| reaches a maximum value of 0 dB. This is evidence
+that all the energy has passed through at 2.45 GHz. The results
+fully show that the interface matching has been achieved
+by the proposed AL-AML. Note that the slight difference
+between ADS and HFSS results is mainly due to the roughly
+simplifying the actual E-field distribution to TEM wave and
+property setting of HBEL at only a fixed frequency point
+in ADS.
+Finally, the proposed efficient WPT system is obtained by
+integrating the designed FZP and AL-AML with a conven-
+tional WPT system, which only contains an out-tissue Tx and
+an in-tissue Rx. The performance of the proposed WPT system
+is discussed in the following. Note that, although the proposed
+FZP and AL-AML are individually designed, the simulated
+and experimental results discussed in Section III show that
+they are not only insusceptible to each other but also mutually
+reinforce the performance of the system.
+III. SIMULATION ANALYSIS
+A. Simulation Model
+Fig. 7(a) shows the structure of the proposed efficient WPT
+system. The proposed WPT system contains five parts: Tx, Rx,
+HBEL, FZP, and AL-AML. Here, biological tissue is modeled
+as a tank filled with HBEL. The length and width of the tank
+are both L, and the thickness is H. The FZP is placed at the
+interface of the air and HBEL. Tx is placed at the source point
+of FZP in the air region, and Rx is placed at the focusing point
+of FZP in the HBEL region. The distances from Tx and Rx
+to the FZP are a and b, respectively. The AL-AML substrate
+is placed before FZP at a distance of d, which is also the
+thickness of the air layer. The metasurface is printed at the
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 6 =====
+2750
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+Fig. 7.
+Simulation model in SEMCAD. (a) Structure of the proposed WPT
+system. (b) Four simulated models.
+TABLE IV
+PARAMETERS OF THE PROPOSED WPT SYSTEM
+bottom layer of the substrate. The centers of Tx, Rx, FZP, and
+AL-AML are collinear.
+To reduce the complexity of the system and clearly demon-
+strate the operating principle, dipole antennas are used as Tx
+and Rx in this work. The lengths of Tx and Rx are l_tx
+and l_rx. Note that, even though the adoption of other types
+of well-designed high-gain antennas may further increase
+the system performance, the effectiveness validation of the
+proposed systematic method is the focus of this investigation.
+For this reason, fundamental dipole antennas are used in this
+article, and no realistic electronics are connected to Rx. All
+of the parameters of the proposed WPT system are listed in
+Table IV.
+All simulations in this section are calculated via commer-
+cial software SEMCAD X by SPEAG based on the finite-
+difference time-domain (FDTD) method. In order to clearly
+verify the effect of the proposed methods, calculations were
+made for the four models shown in Fig. 7(b): Model 1,
+denoted as “Original,” is the original WPT system with only
+Tx and Rx; Model 2, denoted as “FZP,” is the “Original”
+model plus designed FZP; Model 3, denoted as “AL-AML,” is
+the “Original” model plus designed AL-AML; and Model 4,
+denoted as “Proposed,” is the “Original” model integrated with
+a combined FZP and AL-AML approach.
+Fig. 8.
+Normalized E-field magnitude distribution in the xoz plane.
+(a) Original. (b) FZP. (c) AL-AML. (d) Proposed.
+Fig. 9. Normalized E-field magnitude distribution along the x-axis. (a) Curve
+of the normalized E-field magnitude versus the x-axis. (b) Improvement of
+the normalized E-field magnitude.
+B. E-Field Distribution
+The E-field distribution is simulated to intuitively illustrate
+the operating principle and effect of the proposed structures.
+Fig. 8 shows the E-field magnitude distribution in the xoz
+plane. Note that Rx is removed in this simulation to clearly
+show the E-field distribution. Fig. 8(a) shows that the E-field,
+generated by Tx, is distributed throughout the air region and
+attenuates significantly and uniformly in the HBEL region
+due to the high propagation loss caused by biological tissue.
+It can be seen from Fig. 8(b) that the E-field is mainly
+distributed in the central part of the HBEL region and the
+magnitude increased significantly. The interference pattern,
+which appears in the HBEL region, is characteristic of the
+lens and, therefore, verifies the effect of FZP. As shown in
+Fig. 8(c), the E-field increased uniformly in the HBEL region
+by using AL-AML, which is the characteristic of the matching
+layer. The E-field distribution in Fig. 8(d) can be regarded as
+the combination of the two cases mentioned above. The E-field
+distribution in Fig. 8(d) is the result of the combination of the
+two cases mentioned above. The interference pattern becomes
+more obvious, and the E-field magnitude is increased further.
+Fig. 9(a) shows the curves of normalized E-field magnitude
+versus the x-axis. The peak appears at −70 mm where Tx is
+placed. It can be seen that, in the x ≥0 mm region (HBEL
+region), the E-fields attenuate with different degrees and differ
+clearly in the 0 ≤x ≤40
+mm region. In this region, the
+AL-AML has the same degree of attenuation as the Original
+but a higher value of magnitude, indicating that the magnitude
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 7 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2751
+Fig. 10.
+Two-port network equivalent circuit applied to WPT.
+of the E-field increases uniformly in the AL-AML. The curves
+for the FZP and the Proposed have the same tendency: the
+hump at around x = 20 mm indicates that the energy increased
+sharply and became focused around the designed position.
+The 1 curve in Fig. 9(b) clearly shows the effect of FZP,
+AL-AML, and the proposed system. We define the 1 curve
+as the difference in values between each system and the
+original system, which are denoted as 1FZP, 1AL−AML, and
+1Prop. A stable increment of about 3 dB is achieved by using
+AL-AML, which reflects the characteristic of the matching
+layer. In the curves for the FZP and Proposed, the curves
+first increase before decreasing. The peak values appear at
+x = 20 mm, which is the designed focal point. These kinds
+of growth trends show the focusing characteristic of FZP. The
+peak incremental values of the FZP and Proposed are 6.1 and
+10.4 dB, respectively. As discussed in the result discussion
+part of Section IV, a large amount of enhancement of the E-
+field leads to significant improvement in the WPT efficiency.
+Moreover, it can be found that the improvement provided by
+the Proposed is larger than the sum of FZP and AL-AML. This
+is evidence of the superiority of the systematic method over
+traditional single methods. This characteristic is discussed in
+detail in Section IV.
+C. Transmission Factor
+In most existing WPT research, in addition to the WPT
+efficiency, the transmission coefficient (|S21|) is also used to
+evaluate the relative received power. However, in our previous
+studies, we concluded that greater attention should be given to
+propagation loss than to the transmission coefficient because
+the mismatch of antenna ports can be resolved by circuit-
+matching technologies [39], [40]. Therefore, the transmission
+factor τ is used as an indicator of propagation loss in this
+work. The two-port network equivalent circuit applied to WPT
+is shown in Fig. 10. Transmitting antenna is connected to
+a source with an internal impedance of ZS, while receiving
+antenna is loaded with an internal impedance of ZL. PL is the
+power delivered to the load ZL, Pinc is the incident power, Pin
+is the input power, and 0S and 0L are the reflection coefficients
+looking toward the source ZS and the load ZL, respectively.
+The transmission factor τ is the relative maximum received
+power under the condition that the complex-conjugate match-
+ing conditions are satisfied at both transmitting and receiving
+ports, and is defined using S-parameters by the following
+equation [41], [42]:
+τ = PL
+Pinc
+Zs=Z∗
+in,ZL=Z∗
+out = PL
+Pin
+=
+1
+1 −
+0s
+2
+S21
+2
+1 −
+0L
+2
+1 −S220L
+2 .
+(5)
+Fig. 11.
+Simulated local SAR distribution. (a) SAR distribution along the
+x-axis. (b) SAR distribution in the xoz plane (only shows the HBEL region).
+(c) SAR distribution in the yoz plane.
+In order to avoid redundancy, the simulated results of the
+transmission factor are given in Section IV together with the
+measured ones (as shown in Fig. 17). Also, the transmission
+coefficients are also plotted to allow comparison with the
+results of earlier studies (as shown in Fig. 16).
+D. Specific Absorption Rate
+The SAR is an important index used to describe the influ-
+ence of EM waves on biological tissue. In a given region, the
+SAR is computed as the ratio between the dissipated power
+and the mass densities. This is denoted as local SAR and is
+described by the following equation:
+SAR(r) = σ
+2ρ E2 ∝dT
+dt
+(6)
+where E2 = E · E∗denotes the squared magnitude of the
+induced E-field, ρ ≡ρ(r) is the mass density (kg/m3), and T
+is the temperature (K).
+Usually, SAR is mostly presented in an averaged form over
+the region mass as follows:
+⟨SAR⟩M = 1
+M
+Z
+R(M)
+SAR(r) dm
+(7)
+where M =
+R
+R(M) ρ dv is the mass of the integration region R.
+The simulated local SAR distribution is shown in Fig. 11.
+The input power is set as 1 W in all simulations. For
+quantitative analysis, the SAR distribution curve on the x-axis
+is plotted in Fig. 11(a). It is observed that the SAR is mainly
+distributed near the interface of air and HBEL on the HBEL
+side. The peaks of local SAR occur at the interface with
+the values of 1.38, 3.53, 2.49, and 4.95 W/kg, respectively.
+In addition, the 2-D local SAR distributions in the xoz plane
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 8 =====
+2752
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+Fig. 12.
+Fabrication photographs. (a) Tx and Rx. (b) FZP. (c) AL-AML.
+and the yoz plane are plotted in Fig. 11(b) and (c). Note that
+all the SAR values are normalized to 4.95 W/kg for easy com-
+parison. It can be found that the SAR of the proposed system
+is mainly distributed in the designed first three Fresnel zones
+and has a larger and deeper distribution region. Moreover, the
+psSAR (maximum SAR averaged over 10 g tissue) was also
+calculated. The psSARs of Original, FZP, and AL-AML are
+0.48, 0.8, and 0.9 W/kg, respectively. All of these values are far
+below the IEEE standard of psSAR limitation of 2 W/kg [43].
+In addition, the psSAR of the proposed system is 2.43 W/kg,
+which is slightly beyond the standard limit. Therefore, careful
+measures, such as decreasing the input power of Tx, should be
+employed in practical applications for safety considerations.
+IV. EXPERIMENT AND RESULTS
+A. Fabrication and Setting of Experiment
+Fig. 12 shows the photos of fabricated Tx, Rx, FZP, and
+AL-AML. The fabricated Tx and Rx dipole antennas are
+shown in Fig. 12(a). Note that the S-parameter method is
+used in experiments, which is a wideband balanced feeding
+method especially suited to feed antennas under water or
+liquids. Therefore, each dipole antenna is connected with
+two ports by a jig segment as the S-parameter method’s
+requirement [44], [45]. Fig. 12(b) shows the fabricated FZP.
+Note that four fixation strips with a width of 2 mm are made
+to fix the relative position of the three plates. It has been
+verified by simulation that the addition of fixation strips has
+little impact on the results (0.2 dB difference in transmission
+coefficient). Fig. 12(c) shows the fabricated AL-AML. The
+substrate material is CS-3376C produced by RISHO KOGYO
+CO., LTD. with a relative permittivity of 3.3 and a loss
+tangent of 0.004 at 2.45 GHz. The thickness of the substrate
+is 1.2 mm, and the metasurface is printed at the bottom layer
+of the substrate. Moreover, a foam with relative permittivity
+of around 1 and the same size as AL-AML is also fabricated
+to fix the position of AL-AML in the experiment.
+The experimental setup, as shown in Fig. 13(a), consists of
+the following parts: four-port VNA (Agilent N5524A), planar
+scanner, scanning orbit, plastic support, Tx and Rx antennas,
+and HBEL. Plastic support is used to fix Rx and connect
+Rx with the scanning orbit controlled by the planar scanner.
+Therefore, Rx can scan to any point on the vertical plane
+by inputting the position information into the planar scanner.
+A detailed photograph of the experimental environment is
+provided in Fig. 13(b). The settings of the experiment are
+Fig. 13.
+Experimental setting. (a) Schematic of the experimental equipment.
+(b) Experimental environment.
+Fig. 14.
+Measurement photographs. (a) Transmission coefficient measure-
+ment. (b) Measurement of influences of the implant depth and the vertical
+offset.
+given as follows: Tx and Rx are, respectively, connected with
+four-port VNA by feed lines. The output power of VNA is
+0 dBm. Tx is fixed to the outside of the HBEL at a distance
+of 70 mm from the surface, and Rx is implanted inner HBEL.
+Here, HBEL is contained in a plastic tank with a relative
+permittivity of 2.2 and a thickness of 3 mm. The influence of
+the tank was considered in the simulation, which is very small
+and can be neglected. The FZP is fixed at the inner surface
+of the tank, while the AL-AML is fixed at the other side of
+the tank by a piece of foam. The total thickness between FZP
+and AL-AML is 7.06 mm. In the experiment of measuring
+transmission coefficient and transmission factor, Rx is fixed
+inner HBEL at a distance of 20 mm. In the experiment of
+measuring the effect of implant depth and vertical offset, Rx is
+controlled to move along the scan trace by the planar scanner.
+The photographs of measurement are shown in Fig. 14. The
+parameters of the experiment are the same as those in the
+simulation model, which have been given in Table IV. Note
+that each experiment is conducted four times for comparing
+the effects of the four models.
+B. Results and Discussion
+It can be seen from the measured and simulated reflection
+coefficients of the four models in Fig. 15 that the simulated
+and measured |S11| are in good agreement. Second, both the
+simulated and measured results almost remain unchanged for
+the four models, which indicates the good compatibility of the
+proposed system. In terms of |S22|, the measured results of the
+four models are in good agreement. Meanwhile, the resonance
+of simulated results will shift to a higher frequency when the
+FZP is adopted. The discrepancy between the simulated and
+measured results is mainly due to the simplified simulation
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 9 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2753
+Fig. 15.
+Measured and simulated reflection coefficients.
+Fig. 16.
+Measured and simulated transmission coefficients.
+models of Tx and Rx, which do not consider the influence of
+the jig and the effect between the jig and HBEL. Note that
+all the reflection coefficients are below −10 dB within the
+operating frequency, which is evidence of the good matching
+characteristics of Tx and Rx.
+Fig. 16 shows the measured and simulated transmission
+coefficient results. The good agreement between the measured
+and simulated curves verifies the design theory. All of the
+curves increased at first, reaching a peak value of around
+2.45 GHz, and then decreased. Table V lists the measured
+transmission coefficient values at 2.45 GHz and provides a
+comparison with simulated results. The increments of trans-
+mission coefficient obtained by using FZP and AL-AML were
+5.9 and 3.9 dB, respectively. Most importantly, an enhance-
+ment in the measured transmission coefficient of 11.6 dB by
+the proposed system was observed, with the received power
+improved by a factor of 14.45 compared with the original
+system.
+To further evaluate the WPT efficiency, the transmis-
+sion factors were measured. The measured results have the
+same tendency as the simulated results, as can be seen in
+Fig. 17. It should be noted that the stable differences of
+2–3 dB between the measured values and simulation results in
+Figs. 16 and 17 can mainly be attributed to the characteristic
+changes (decrease of permittivity or conductivity) of HBEL
+TABLE V
+MEASURED TRANSMISSION COEFFICIENT VALUES AT 2.45 GHZ AND
+COMPARISON WITH SIMULATION RESULTS
+Fig. 17.
+Measured and simulated transmission factors.
+TABLE VI
+MEASURED TRANSMISSION FACTOR VALUES AT 2.45 GHZ AND
+COMPARISON WITH SIMULATION RESULTS
+due to prolonged storage and environmental changes [46].
+In addition, the RF leaks within the operating frequency
+band from free space would also affect measured results.
+The transmission factor values at 2.45 GHz are also given
+in Table VI with the simulated results. It was observed that 6,
+3.9, and 12 dB increments of the transmission coefficient are
+obtained by using FZP, AL-AML, and the proposed system,
+respectively. The increase in the relative maximum received
+power was 15.8 times greater than that in the original system.
+This is clear evidence of the improved efficiency of the
+proposed WPT system. It should also be noted that both
+the simulated and measured transmission factors are almost
+the same as the transmission coefficients. In other words, the
+matching loss is very slight in this work, and the measured
+received power is very close to the theoretical upper limit.
+The proposed systematic method not only greatly improves
+the WPT efficiency but also shows the superiority of the
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 10 =====
+2754
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+Fig. 18.
+Effect of implant depth and vertical offset of Rx. (a) Measured
+change and improvement of transmission coefficients along with the implant
+depth. (b) Effect of the vertical translation offset misalignment of Rx.
+proposed systematic method over other ordinary methods.
+In both the simulated and experimental results listed in
+Tables V and VI, 1Prop is larger than 1FZP plus 1AL−AML.
+In other words, the improvement of using FZP and AL-AML
+simultaneously is better than the sum of the improvement
+of using FZP and AL-AML, respectively, which means that
+FZP and AL-AML are mutually reinforcing. The reason for
+this phenomenon is that the main contribution to the focusing
+characteristic of the designed FZP is the E-field within the
+first Fresnel zone, where it is significantly further enhanced by
+the existence of AL-AML. This allows the total effect to be
+further improved. However, in other studies, only the antenna
+configuration is typically modified to increase transferred
+power, like in the FZP used in this article, which leads to
+a limited effect on improving WPT efficiency. The results
+of this investigation show that the systematic method has the
+characteristic of “1 + 1 > 2” and reveals the superiority of
+the proposed systematic method over single methods.
+To clearly understand how the proposed structures would
+help the WPT efficiency, the measured transmission coeffi-
+cients of the four models, as a function of implant depth, are
+shown in Fig. 18(a) for the purpose of comparison (in solid
+line). The same trends as the curves shown in Fig. 9(a) are
+observed, verifying the analysis of the operating principle of
+each component in Section III. Moreover, the corresponding
+1 curves are also plotted in Fig. 18(a) (in dashed line). The
+main increase in the transmission coefficient is around the
+design implant depth of 20 mm (green zone in the figure).
+The measured largest increment of 11.6 dB is also obtained at
+this position. This focused transmission coefficient distribution
+not only ensures the improvement of WPT efficiency but also
+reduces the impact of the increased transferred power on other
+nontarget organs or tissues. Furthermore, the measured results
+shown in Fig. 18(a) agree well with the simulated results
+shown in Fig. 9, indicating the correctness of the proposed
+design theories.
+In practical applications, the FZP and AL-AML are likely
+to be wearable devices. That is, they would be combined with
+clothing or medical adhesive tape, which may inadvertently
+result in a misalignment between the FZP or AL-AML and the
+implanted Rx element. Therefore, it is necessary to discuss the
+influence of misalignment tolerance. To simplify the analysis
+process, the position of Rx is changed in the experiment to
+simulate misalignment. Therefore, it is necessary to discuss the
+influence of misalignment tolerance. To simplify the analysis
+process, the position of Rx is changed in the experiment to
+simulate misalignment. Fig. 18(b) shows the effect of the
+vertical translation offset misalignment of Rx. The trans-
+mission coefficient decreases as the offset value becomes
+larger in all cases. As for original and AL-AML systems,
+the effect of vertical translation offset is slight because the
+energy distribution is almost uniform in the vertical direction.
+However, the effect of translation offset is significant due to
+the focusing characteristic in the FZP and proposed systems.
+When the offset value is 5 mm, the received power is only
+half that of the normal situation. That is to say, the position of
+implanted Rx should be strictly fixed for excellent performance
+when using FZP in practical applications. We recommend that
+the maximum absolute offset value should not exceed 3 mm,
+which would allow receiving at least 80% of the maximum
+power, while the limits can be extended to 10 mm if only
+AL-AML is used in the actual application.
+Table VII shows the results for the proposed WPT system
+with the results of previous works. Some necessary parameters
+and information related to transfer efficiency are given for the
+purposes of a clear comparison, including operating frequency,
+antenna types of Tx and Rx, transfer distance, and implant
+distance. Here, we put the emphasis on just two parameters
+for comparison: the implant distance and the transmission
+coefficient (|S21|). In the study by Bose et al. [20], only
+the WPT performance over a long distance was evaluated,
+and no measure to improve WPT efficiency was reported.
+The results of this investigation, however, showed a remark-
+able improvement in efficiency (represented by |S21| and τ),
+especially over long working distances (both the transferred
+distance and the implant distance). Note that, although the
+|S21| improvement of this work is 4.1 and 0.58 dB smaller than
+the improvement reported by Li et al. [16] and Shaw et al.
+[25], the implant distance of this work is almost seven and
+ten times deeper than it was in their study. Moreover, in [16],
+at an implant distance of only 3 mm, the application is
+severely limited, and the 430 MHz operating frequency makes
+it difficult to realize miniaturization in the design of implant
+devices.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 11 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2755
+TABLE VII
+COMPARISONS OF THE PROPOSED WPT SYSTEM WITH PREVIOUS WORKS
+Finally, it should be noted that the advantageous results
+obtained in this investigation were obtained by the use of a
+fundamental type of dipole antenna and not the well-designed
+antennas used in other works. The effectiveness of the pro-
+posed systematic method would not be affected by using
+different antenna types of Tx and Rx. It is likely that the
+WPT system can be further enhanced by switching the dipole
+antenna to another well-designed high-directivity antenna or
+using a more sophisticated array.
+V. CONCLUSION
+For the first time, a systematic method was successfully used
+to analyze the application of the WPT process to biomedical
+devices. In this investigation, we proposed and experimentally
+verified a systematic method for improving the efficiency of
+WPT technology applied to implantable biomedical devices.
+It was first revealed that the two causes of the high propagation
+loss in typical WPT scenarios were in-tissue attenuation and
+interface reflection. To counteract these issues, the use of a sys-
+tematic method was presented as a means of comprehensively
+improving transmission efficiency. Two single methods, FZP
+and AL-AML, were proposed to reduce in-tissue attenuation
+and interface reflection, respectively, and were then combined
+to form the proposed systematic method. The performance
+of the proposed systematic method and its superiority over
+single methods was then carefully verified by simulation and
+experimental results.
+Although this article has focused on the effectiveness vali-
+dation of the systematic method, adopting different antennas
+such as Tx and Rx may have the potential to enhance the WPT
+efficiency. The study of design and optimization of specific Tx
+and Rx is beyond the scope of this article and is remaining as
+a future work.
+The main results of this investigation are given as follows.
+1) Experimentally, the proposed systematic method was
+shown to increase |S21| by a factor of 14.45 (11.6 dB)
+over that of the original system (which only contains
+an out-tissue Tx and an in-tissue Rx) and increase the
+relative maximum received power by 15.8 times (12 dB)
+that of the original system when the spacing distance is
+90 mm and the implant depth is 20 mm.
+2) Compared to the original system, the improvement of
+|S21| and τ was shown to be only 5.9 and 6 dB for the
+FZP, and 3.9 and 3.9 dB for the AL-AML. These results
+directly reveal the superiority of the proposed systematic
+methods over conventional single methods.
+3) The proposed WPT system is shown to perform well
+when faced with the problem of misalignment of the
+implantable Rx in practical applications.
+There is no doubt that the WPT efficiency of the pro-
+posed system could be further enhanced by improving the
+characteristic of the antenna and optimizing the performance
+of FZP and AL-AML. The systematic method proposed in
+this investigation represents a novel and effective guiding
+methodology in WPT research related to biological tissue
+and provides the basis for opening new avenues for further
+developments of an efficient WPT system for application to
+implantable devices.
+REFERENCES
+[1] R. Bashirullah, “Wireless implants,” IEEE Microw. Mag., vol. 11, no. 7,
+pp. S14–S23, Dec. 2010.
+[2] T. Sun, X. Xie, and Z. Wang, “Design challenges of the wireless power
+transfer for medical microsystems,” in Proc. IEEE Int. Wireless Symp.
+(IWS), Apr. 2013, pp. 1–4.
+[3] J. Lee and S. Nam, “Fundamental aspects of near-field coupling small
+antennas for wireless power transfer,” IEEE Trans. Antennas Propag.,
+vol. 58, no. 11, pp. 3442–3449, Nov. 2010.
+[4] R. Jegadeesan, K. Agarwal, Y.-X. Guo, S.-C. Yen, and N. V. Thakor,
+“Wireless power delivery to flexible subcutaneous implants using capac-
+itive coupling,” IEEE Trans. Microw. Theory Techn., vol. 65, no. 1,
+pp. 280–292, Jan. 2017.
+[5] R. Bosshard, J. Mühlethaler, J. W. Kolar, and I. Stevanovi´c, “Optimized
+magnetic design for inductive power transfer coils,” in Proc. 28th
+Annu. IEEE Appl. Power Electron. Conf. Expo. (APEC), Mar. 2013,
+pp. 1812–1819.
+[6] Y.-S. Seo, M. Quoc Nguyen, Z. Hughes, S. Rao, and J.-C. Chiao,
+“Wireless power transfer by inductive coupling for implantable battery-
+less stimulators,” in IEEE MTT-S Int. Microw. Symp. Dig., Jun. 2012,
+pp. 1–3.
+[7] A. Kurs, A. Karalis, R. Moffatt, J. D. Joannopoulos, P. Fisher, and
+M. Soljaˇci´c, “Wireless power transfer via strongly coupled magnetic
+resonances,” Science, vol. 317, no. 5834, pp. 83–86, 2007.
+[8] J. Gozalvez, “WiTricity-the wireless power transfer [mobile radio],”
+IEEE Veh. Technol. Mag., vol. 2, no. 2, pp. 38–44, Jun. 2007.
+[9] Z. Wang, X. Wei, and H. Dai, “Principle elaboration and system structure
+validation of wireless power transfer via strongly coupled magnetic
+resonances,” in Proc. IEEE Vehicle Power Propuls. Conf. (VPPC),
+Oct. 2013, pp. 1–6.
+[10] X. Zhang, S. L. Ho, and W. N. Fu, “Quantitative analysis of a wireless
+power transfer cell with planar spiral structures,” IEEE Trans. Magn.,
+vol. 47, no. 10, pp. 3200–3203, Oct. 2011.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 12 =====
+2756
+IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION, VOL. 71, NO. 3, MARCH 2023
+[11] M. R. Basar, M. Y. Ahmad, J. Cho, and F. Ibrahim, “An improved
+wearable resonant wireless power transfer system for biomedical capsule
+endoscope,” IEEE Trans. Ind. Electron., vol. 65, no. 10, pp. 7772–7781,
+Oct. 2018.
+[12] R. Das and H. Yoo, “A multiband antenna associating wireless mon-
+itoring and nonleaky wireless power transfer system for biomedi-
+cal implants,” IEEE Trans. Microw. Theory Techn., vol. 65, no. 7,
+pp. 2485–2495, Jul. 2017.
+[13] C. Liu, C. Jiang, J. Song, and K. T. Chau, “An effective sandwiched wire-
+less power transfer system for charging implantable cardiac pacemaker,”
+IEEE Trans. Ind. Electron., vol. 66, no. 5, pp. 4108–4117, May 2019.
+[14] Y. Fan, L. Li, S. Yu, C. Zhu, and C.-H. Liang, “Experimental study
+of efficient wireless power transfer system integrating with highly
+sub-wavelength metamaterials,” Prog. Electromagn. Res., vol. 141,
+pp. 769–784, 2013.
+[15] B. Wang, K. H. Teo, T. Nishino, W. Yerazunis, J. Barnwell, and
+J. Zhang, “Experiments on wireless power transfer with metamaterials,”
+Appl. Phys. Lett., vol. 98, no. 25, 2011, Art. no. 254101.
+[16] L. Li, H. Liu, H. Zhang, and W. Xue, “Efficient wireless power transfer
+system integrating with metasurface for biological applications,” IEEE
+Trans. Ind. Electron., vol. 65, no. 4, pp. 3230–3239, Apr. 2018.
+[17] A. S. Y. Poon, S. O’Driscoll, and T. H. Meng, “Optimal frequency
+for wireless power transmission into dispersive tissue,” IEEE Trans.
+Antennas Propag., vol. 58, no. 5, pp. 1739–1750, May 2010.
+[18] S. A. A. Shah and H. Yoo, “Radiative near-field wireless power transfer
+to scalp-implantable biotelemetric device,” IEEE Trans. Microw. Theory
+Techn., vol. 68, no. 7, pp. 2944–2953, Jul. 2020.
+[19] J. S. Ho, S. Kim, and A. S. Y. Poon, “Midfield wireless powering
+for implantable systems,” Proc. IEEE, vol. 101, no. 6, pp. 1369–1378,
+Jun. 2013.
+[20] P. Bose, A. Khaleghi, M. Albatat, J. Bergsland, and I. Balasingham, “RF
+channel modeling for implant-to-implant communication and implant
+to subcutaneous implant communication for future leadless cardiac
+pacemakers,” IEEE Trans. Biomed. Eng., vol. 65, no. 12, pp. 2798–2807,
+Dec. 2018.
+[21] Z. Nie and Y. Yang, “A model independent scheme of adaptive focusing
+for wireless powering to in-body shifting medical device,” IEEE Trans.
+Antennas Propag., vol. 66, no. 3, pp. 1497–1506, Mar. 2018.
+[22] K. Zhang et al., “Near-field wireless power transfer to deep-tissue
+implants for biomedical applications,” IEEE Trans. Antennas Propag.,
+vol. 68, no. 2, pp. 1098–1106, Feb. 2020.
+[23] S. Bakogianni and S. Koulouridis, “A dual-band implantable rectenna
+for wireless data and power support at sub-GHz region,” IEEE Trans.
+Antennas Propag., vol. 67, no. 11, pp. 6800–6810, Nov. 2019.
+[24] C. Liu, Y.-X. Guo, H. Sun, and S. Xiao, “Design and safety con-
+siderations of an implantable rectenna for far-field wireless power
+transfer,” IEEE Trans. Antennas Propag., vol. 62, no. 11, pp. 5798–5806,
+Nov. 2014.
+[25] T. Shaw, G. Samanta, and D. Mitra, “Efficient wireless power transfer
+system for implantable medical devices using circular polarized anten-
+nas,” IEEE Trans. Antennas Propag., vol. 69, no. 7, pp. 4109–4122,
+Jul. 2021.
+[26] T. Shaw and D. Mitra, “Metasurface-based radiative near-field wireless
+power transfer system for implantable medical devices,” IET Microw.,
+Antennas Propag., vol. 13, no. 12, pp. 1974–1982, Oct. 2019.
+[27] Z. Zhang, H. Pang, A. Georgiadis, and C. Cecati, “Wireless power
+transfer—An overview,” IEEE Trans. Ind. Electron., vol. 66, no. 2,
+pp. 1044–1058, Feb. 2019.
+[28] P. Nepa and A. Buffi, “Near-field-focused microwave antennas: Near-
+field shaping and implementation,” IEEE Antennas Propag. Mag.,
+vol. 59, no. 3, pp. 42–53, Jun. 2017.
+[29] S. Karimkashi and A. A. Kishk, “Focusing properties of Fresnel zone
+plate lens antennas in the near-field region,” IEEE Trans. Antennas
+Propag., vol. 59, no. 5, pp. 1481–1487, May 2011.
+[30] F. Tofigh, J. Nourinia, M. Azarmanesh, and K. M. Khazaei, “Near-field
+focused array microstrip planar antenna for medical applications,” IEEE
+Antennas Wireless Propag. Lett., vol. 13, pp. 951–954, 2014.
+[31] W. Wu, K.-D. Xu, Q. Chen, T. Tanaka, M. Kozai, and H. Minami,
+“A wideband reflectarray based on single-layer magneto-electric dipole
+elements with 1-bit switching mode,” IEEE Trans. Antennas Propag.,
+vol. 70, no. 12, pp. 12346–12351, Dec. 2022.
+[32] A. Basir and H. Yoo, “Efficient wireless power transfer system with
+a miniaturized quad-band implantable antenna for deep-body multi-
+tasking implants,” IEEE Trans. Microw. Theory Techn., vol. 68, no. 5,
+pp. 1943–1953, May 2020.
+[33] F. Yang, J. Luo, S. Xu, and M. Li, “Design of artificial matching layers
+with arbitrary permittivity using a metasurface,” IEEE Antennas Wireless
+Propag. Lett., vol. 17, no. 8, pp. 1445–1448, Aug. 2018.
+[34] T. Yilmaz, T. Karacolak, and E. Topsakal, “Characterization and testing
+of a skin mimicking material for implantable antennas operating at
+ISM band (2.4 GHz-2.48 GHz),” IEEE Antennas Wireless Propag. Lett.,
+vol. 7, pp. 418–420, 2008.
+[35] Basic
+Information
+of
+HBEL
+From
+SPEAG’s
+Official
+Website.
+Accessed:
+Feb.
+1,
+2023.
+[Online].
+Available:
+https://speag.swiss/
+components/materials-liquids/msl/
+[36] D. N. Black and J. C. Wiltse, “Millimeter-wave characteristics of phase-
+correcting Fresnel zone plates,” IEEE Trans. Microw. Theory Techn.,
+vol. MTT-35, no. 12, pp. 1122–1129, Dec. 1987.
+[37] F. A. Jenkins and H. E. White, Fundamentals of Optics. New York, NY,
+USA: McGraw-Hill, 1957, pp. 385–386.
+[38] J. D. Kraus and D. A. Fleisch, Electromagnetics. New York, NY, USA:
+McGraw-Hill, 1999, pp. 509–511.
+[39] Q. Yuan and S. Suzuki, “Exact matching approach with circuit element
+ohmic loss,” in Proc. Int. Symp. Antennas Propag. (ISAP), 2016,
+pp. 342–343.
+[40] S. Suzuki, Q. Yuan, and Q. Chen, “Impedance matching approach of L-
+section circuit with ohmic loss in reactive components,” Wireless Power
+Transf., vol. 5, no. 1, pp. 64–74, Mar. 2018.
+[41] Q. Chen, K. Ozawa, Q. Yuan, and K. Sawaya, “Antenna characterization
+for wireless power-transmission system using near-field coupling,” IEEE
+Antennas Propag. Mag., vol. 54, no. 4, pp. 108–116, Aug. 2012.
+[42] Y. Li, H. Sato, and Q. Chen, “Capsule antenna design based on
+transmission factor through the human body,” IEICE Trans. Commun.,
+vol. 101, no. 2, pp. 357–363, 2018.
+[43] C. Chou, IEEE Standard for Safety Levels With Respect to Human
+Exposure to Radio Frequency Electromagnetic Fields, 3 kHz to 300 GHz,
+IEEE Standard c95.1-2005, The Institute of Electrical and Electronics
+Engineers, New York, NY, USA, 2006.
+[44] R. Meys and F. Janssens, “Measuring the impedance of balanced
+antennas by an S-parameter method,” IEEE Antennas Propag. Mag.,
+vol. 40, no. 6, pp. 62–65, Dec. 1998.
+[45] T. Fukasawa, T. Yanagi, H. Miyashita, and K. Konishi, “Extended
+S-parameter method including radiation pattern measurements of an
+antenna,” IEEE Trans. Antenna Propag., vol. 60, no. 12, pp. 5645–5653,
+Dec. 2012.
+[46] K. Fukunaga, S. Watanabe, and Y. Yamanaka, “Dielectric properties
+of tissue-equivalent liquids and their effects on specific absorption
+rate,” IEEE Trans. Electromagn. Compat., vol. 46, no. 1, pp. 126–129,
+Feb. 2004.
+Xianbo Cao (Graduate Student Member, IEEE) was
+born in Xi’an, Shaanxi, China, in 1995. He received
+the B.S. and M.S. degrees in electromagnetic field
+and microwave technology from Xidian University,
+Xi’an, China, in 2016 and 2019, respectively.
+He is currently pursuing the Ph.D. degree with
+the Department of Communications Engineering,
+Tohoku University, Sendai, Japan.
+His current research interests include wireless
+power
+transfer
+(WPT),
+metasurfaces,
+time-
+modulated
+arrays,
+reflectarray
+antennas,
+and
+reconfigurable intelligent surfaces (RISs).
+Mr. Cao was a recipient of the Best Student Award at the 2018 Asian
+Wireless Power Transfer Workshop (AWPT 2018) in 2018.
+Hiroyasu Sato (Member, IEEE) received the B.E.
+and M.E. degrees from Chuo University, Tokyo,
+Japan, in 1993 and 1995, respectively, and the
+D.E. degree from Tohoku University, Sendai, Japan,
+in 1998.
+He
+is
+currently
+an
+Assistant
+Professor
+with
+the Department of Communications Engineering,
+Tohoku University. His current research interests
+include the experimental study of electromagnetic
+waves, computational electromagnetics, antennas in
+plasma, antennas for plasma production, broad-
+band antennas, wireless power transfer, and active/passive millimeter-wave
+imaging.
+Dr. Sato is a member of the Institute of Electronics, Information and
+Communication Engineers (IEICE). He received the First Place of the Best
+Paper Award from the International Symposium on Antennas and Propagation
+(ISAP) in 2017.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 13 =====
+CAO et al.: SYSTEMATIC METHOD FOR EFFICIENT WIRELESS POWERING TO IMPLANTABLE BIOMEDICAL DEVICES
+2757
+Kai-Da Xu (Senior Member, IEEE) received the
+B.E. and Ph.D. degrees in electromagnetic field and
+microwave technology from the University of Elec-
+tronic Science and Technology of China (UESTC),
+Chengdu, China, in 2009 and 2015, respectively.
+From 2012 to 2014, he was a Visiting Researcher
+with the Department of Electrical and Computer
+Engineering, Duke University, Durham, NC, USA,
+under financial support from the China Scholarship
+Council. In 2015, he joined the Department of Elec-
+tronic Science, Xiamen University, Xiamen, China,
+as an Assistant Professor. From 2016 to 2017, he was a Post-Doctoral Fellow
+with the State Key Laboratory of Millimeter Waves, City University of
+Hong Kong, Hong Kong. From 2018 to 2019, he was an Honorary Fellow
+with the Department of Electrical and Computer Engineering, University of
+Wisconsin–Madison, Madison, WI, USA. He was successfully selected into
+the Youth Talent Support Program of Xi’an Jiaotong University (XJTU) in
+2019, and joined the School of Information and Communications Engineering
+at XJTU in 2020. Also, he was awarded a fellowship from the Japan Society
+for the Promotion of Science (JSPS) and was a JSPS Fellow with the Depart-
+ment of Communications Engineering, Tohoku University, Sendai, Japan, from
+November 2019 to May 2021. He has authored or coauthored over 160 papers
+in peer-reviewed journals and over 50 papers in conference proceedings. His
+current research interests include RF/microwave, mm-wave/THz devices, and
+antenna arrays.
+Wen Jiang (Member, IEEE) was born in Shandong,
+China, in 1985. He received the B.S. and Ph.D.
+degrees from Xidian University, Xi’an, China,
+in 2008 and 2012, respectively.
+He is currently the Vice-Director of the National
+Key Laboratory of Science and Technology on
+Antennas and Microwaves, Xidian University, where
+he is also a Full Professor. His current research
+interests include electromagnetic scattering theory
+and technology, antenna theory and engineering, and
+electromagnetic measurement theory technology.
+Shuxi Gong (Member, IEEE) was born in Hebei,
+China, in March 1957. He received the B.S. and
+M.S. degrees from Xidian University, Xi’an, China,
+in 1982 and 1984, respectively, and the Ph.D. degree
+from Xi’an Jiaotong University, Xi’an, in 1988.
+He was the Director of the National Key Lab-
+oratory of Science and Technology on Antennas
+and Microwaves, Xidian University, where he is
+currently a Full Professor. He has authored or
+coauthored over 200 refereed journal articles. His
+current research interests include antenna theory and
+technology, and electromagnetic scattering theory and technology.
+Qiang Chen (Senior Member, IEEE) received the
+B.E. degree from Xidian University, Xi’an, China,
+in 1986, and the M.E. and D.E. degrees from
+Tohoku University, Sendai, Japan, in 1991 and 1994,
+respectively.
+He is currently a Chair Professor with the
+Electromagnetic Engineering Laboratory, Depart-
+ment
+of
+Communications
+Engineering,
+Faculty
+of Engineering, Tohoku University. His primary
+research interests include antennas, microwaves and
+millimeter waves, electromagnetic measurement,
+and computational electromagnetics.
+Dr. Chen is a fellow of the Institute of Electronics, Information and
+Communication Engineers (IEICE). He received the Best Paper Award and the
+Zen-ichi Kiyasu Award from IEICE. He has served as the Chair of the IEICE
+Technical Committee on Photonics-Applied Electromagnetic Measurement
+from 2012 to 2014, the IEICE Technical Committee on Wireless Power
+Transfer from 2016 to 2018, the IEEE Antennas and Propagation Society
+Tokyo Chapter from 2017 to 2018, and the IEICE Technical Committee on
+Antennas and Propagation from 2019 to 2021.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:05:04 UTC from IEEE Xplore.  Restrictions apply. 

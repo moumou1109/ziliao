@@ -1,0 +1,373 @@
+
+===== PAGE 1 =====
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 25, NO. 2, FEBRUARY 2026
+611
+Broadband 2 GHz to 14 GHz Dual-Polarized Horn
+Antenna With Stable Unidirectional Radiation
+Patterns
+Xianbo Cao
+, Member, IEEE, Pengfei Zhang
+, Tao Hong
+, Senior Member, IEEE,
+and Wen Jiang, Senior Member, IEEE
+Abstract—A
+broadband
+dual-polarized
+quad-ridged
+horn
+(QRH) antenna covering 2 GHz to 14 GHz is proposed for antenna
+measurements and electromagnetic compatibility (EMC) testing.
+To achieve dual-port broadband impedance matching, a metallic
+ring-shaped matching block and two metallic bridges are incor-
+porated into the feeding cavity. Additionally, the ridge proﬁle is
+optimized using a fourth-order Bezier curve to ensure smooth
+impedance transitions, while the sidewall structure is shortened
+to mitigate radiation pattern distortion at high frequencies. As a
+result of these enhancements, the fabricated antenna prototype
+exhibits a reﬂection coefﬁcient below −10 dB, port isolation ex-
+ceeding 30 dB, a gain ranging from 6.3 dBi to 19.3 dBi, and stable,
+symmetrical radiation patterns without beam splitting across the
+entire operating band. Compared with conventional designs, the
+proposed antenna achieves both broader bandwidth and improved
+radiation stability, thereby addressing typical pattern distortion in
+broadband applications.
+Index
+Terms—Antenna
+measurement,
+broadband,
+dual-
+polarization, horn antenna, quad-ridged.
+I. INTRODUCTION
+B
+ROADBAND horn antennas are widely employed in a
+range of applications, including antenna measureme-nts
+(serving as both reference and source antennas), electromagnetic
+compatibility and interference (EMC/I) testing, communication
+systems, satellite tracking systems, reﬂector feed systems, and
+electronic warfare (EW) [1], [2], [3], [4], [5]. Their popularity
+is largely due to their advantageous characteristics such as high
+gain, broad bandwidth, strong power-handling capability, stable
+radiation patterns, ease of excitation, and relatively straightfor-
+ward construction [6].
+The original horn antenna exhibited a bandwidth of 3:1 [7],
+which was subsequently extended to 12:1 [8], [9]; however,
+signiﬁcant radiation pattern distortion was observed. Recent
+studies have focused on extending the bandwidth of horn
+Received 5 September 2025; revised 14 October 2025; accepted 9 November
+2025. Date of publication 13 November 2025; date of current version 5 February
+2026. This work was supported in part by the Postdoctoral Fellowship Program
+of China Postdoctoral Science Foundation under Grant Number GZC20241300;
+in part by the Fellowship of China Postdoctoral Science Foundation under Grant
+Number 2024M762534; and in part by the National Natural Science Founda-
+tion of China under Grant 62401444, Grant 62171335, and Grant U23B2017.
+(Corresponding author: Xianbo Cao.)
+The authors are witht the Hangzhou Institute of Technology, Xidian Univer-
+sity, Hangzhou 311200, China, and also with the National Key Laboratory of
+Radar Detection and Sensing, Xidian University, Xi’an 710071, China (e-mail:
+caoxianbo@xidian.edu.cn).
+Digital Object Identiﬁer 10.1109/LAWP.2025.3632783
+antennas while enhancing radiation pattern stability. In [10] and
+[11],theBeziercurvewasemployedtomodeltheridgestructure,
+thereby enhancing aperture matching. In [12], the sidewalls of
+the horn antenna were replaced with adjustable metallic grids,
+thereby mitigating radiation pattern discontinuities at high fre-
+quencies. A quad-ridged horn (QRH) antenna was designed for
+radio telescope applications, incorporating a recessed contour
+proﬁle to achieve greater phase-center stability in the radiation
+pattern [13]. A cross-shaped inverted-ridge horn antenna was
+proposed, wherein the conventional metallic back cavity was re-
+placed with a polytetraﬂuoroethylene (PTFE) cavity to suppress
+higher-ordermodes[14].However,theaforementionedantennas
+exhibit several limitations, including single polarization, pat-
+tern splitting, and relatively high sidelobe levels. According to
+previous studies [15], [16], broadband horn antennas are prone
+to higher-order mode excitation, which can result in pattern
+distortion. Therefore, it remains necessary to develop broadband
+horn antennas with stable radiation patterns.
+In this letter, a dual-polarized broadband QRH antenna with
+stable radiation characteristics is proposed and analyzed. A
+ring-shaped matching block is introduced at the base of the
+feeding cavity to realize broadband performance. Two metallic
+bridges are introduced below the ridges to enable simultane-
+ous impedance matching at both ports. Furthermore, the ridge
+proﬁles are optimized using Bezier curves to ensure smooth
+impedance transitions. The sidewall structure is also carefully
+shortened to suppress higher-order mode excitation, thereby
+further preventing degradation of the radiation pattern. As a
+result of these enhancements in the feeding cavity and ﬂared
+section, the proposed horn antenna demonstrates the following
+performance characteristics:
+1) broadband performance with a 7:1 bandwidth ratio;
+2) a stable radiation pattern without splitting, exhibiting im-
+proved consistency across the entire operating band;
+3) reasonable gain, cross-polarization level, and isolation.
+II. ANTENNA STRUCTURE DESIGN
+This letter employs a modular design methodology, in which
+the antenna is divided into a feeding cavity and a ﬂared section.
+Each module is independently designed and analyzed to reduce
+computational complexity and to accelerate the design process.
+A. Feeding Cavity
+The structure of the feeding cavity is shown in Fig. 1. A
+metallic ring-shaped matching block is employed instead of the
+1548-5757 © 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artiﬁcial intelligence and similar technologies.
+Personal use is permitted, but republication/redistribution requires IEEE permission. See https://www.ieee.org/publications/rights/index.html for more information.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:06:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 2 =====
+612
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 25, NO. 2, FEBRUARY 2026
+Fig. 1.
+Structure of feeding cavity.
+Fig. 2.
+Effect of metallic bridges on reﬂection coefﬁcient.
+conventional rectangular block. The introduction of the ring-
+shaped block enables electromagnetic resonance at the bottom of
+the cavity and facilitates broadband impedance matching. Since
+the impedance characteristic is sensitive to the distance between
+the feeding ports and the matching block, the two feeding ports
+are positioned with a nonuniform height proﬁle to allow ﬂexible
+impedance matching. Speciﬁcally, additional metallic bridges
+with height Tm, shown in orange in Fig. 1, are inserted between
+the ridge of the x-axis feeding port and the matching block within
+the feeding cavity. These modiﬁcations ensure that both feeding
+ports maintain an optimal distance from the matching block and
+achieve efﬁcient impedance matching simultaneously.
+To verify the effect of the metallic bridges on the reﬂection
+coefﬁcient of the feeding cavity, simulations were conducted
+for two cases: with and without metallic bridges. The simulated
+results are presented in Fig. 2. The models of the proposed
+antenna are calculated and analyzed using Ansys HFSS. Since
+the metallic bridges are placed at the base of the ridge along the
+x-axis, they exert minimal inﬂuence on the reﬂection coefﬁcient
+of Port-Y while signiﬁcantly inﬂuencing that of Port-X. Without
+the metallic bridges, the impedance matching of the feeding cav-
+ity is inadequate. After the metallic bridges are introduced, the
+reﬂection coefﬁcient within the operating band is reduced below
+−10dB,indicatingthatelectromagneticresonanceisestablished
+at the bottom of the cavity. The simulation results demonstrate
+that incorporating the metallic bridges effectively mitigates the
+impedance mismatch caused by the height disparity between the
+two feeding ports in the dual-polarized horn antenna. The ﬁnal
+parameters of the feeding cavity are listed in Table I.
+TABLE I
+PARAMETERS OF FEEDING CAVITY
+Fig. 3.
+Structure of ﬂared section.
+B. Flared Section
+The structure of the horn ﬂare section is shown in Fig. 3.
+The key parameters of the ﬂared section include the bottom
+aperture diameter (Db), the top aperture diameter (Dt), the side-
+wall height (H1), ridge height (H2), and the ridge proﬁle. The
+aperture and height of the horn ﬂared section directly determine
+the ﬂare angle. A larger ﬂare angle reduces the low-frequency
+cutoff, but it also introduces signiﬁcant phase errors across the
+aperture, thereby degrading the radiation pattern. In contrast, a
+smaller ﬂare angle improves the radiation pattern, but results
+in reduced gain and an increased low-frequency cutoff, which
+makes it difﬁcult to satisfy the 2 GHz lower operating limit.
+Consequently, the design of the horn’s ﬂared section should
+be carefully optimized to balance cutoff frequency, radiation
+pattern stability, and gain, thereby ensuring optimal antenna
+performance.
+As shown by the red line in Fig. 3, to enable precise control
+of the ridge proﬁle, this work employs Bezier curves to deﬁne
+the ridge geometry, replacing the exponential curves adopted
+in previous works, which pose inherent challenges in precise
+control [12], [17], [18]. The start and end points of a Bezier curve
+are ﬁxed at the ﬁrst and last control points, while the intermediate
+control points attract the curve toward them, making Bezier
+curves well-suited for modeling complex shapes. Furthermore,
+increasing the curve order introduces additional control points,
+thereby allowing more accurate curve shaping. Fig. 4 illustrates
+the ﬁnal ridge proﬁle, which is deﬁned using an optimized
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:06:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 3 =====
+CAO et al.: BROADBAND 2 GHz TO 14 GHz DUAL-POLARIZED HORN ANTENNA WITH STABLE UNIDIRECTIONAL RADIATION PATTERNS
+613
+Fig. 4.
+Optimized Bezier curve of the ridge.
+Fig. 5.
+Effect of sidewall height on gain and radiation pattern.
+fourth-order Bezier curve in this work. By optimizing the po-
+sitions of these control points, a smooth, arc-like transition is
+achieved, resulting in a more progressive impedance transition.
+Thecoordinates(Z,X)oftheoptimizedcontrolpointsP0through
+P4 are (0 mm, 1.1 mm), (140 mm, 1.1 mm), (150 mm, 18 mm),
+(155 mm, 46 mm), and (140 mm, 55 mm), respectively.
+An additional structural enhancement involves the reduction
+of the sidewall height. This modiﬁcation was made based on
+simulations indicating that the E-plane radiation pattern of the
+full-sidewall antenna exhibited signiﬁcant distortion at higher
+frequencies as a result of higher-order mode excitation. In
+contrast, the shortened sidewalls, which lack metallic barri-
+ers, suppressed the generation of higher-order modes, thereby
+reducing radiation pattern degradation and asymmetry. Fig. 5
+illustrates the simulated E-plane radiation patterns of both full-
+and shortened-sidewall antennas at 10 GHz and 11 GHz for
+Port-X (Port-Y exhibits similar results and is therefore omitted
+for brevity). The full-sidewall antenna exhibited asymmetric
+radiation patterns at 10 GHz and a pronounced dip at 11 GHz,
+attributable to the excitation of higher-order modes caused by
+the blockage imposed by the sidewalls. By removing portions
+of the sidewalls, the excitation of these modes was effectively
+suppressed, thereby ensuring more symmetric and stable radi-
+ation patterns. The optimized dimensions of the ﬂared section
+are listed in Table II.
+III. MEASUREMENT RESULTS AND DISCUSSION
+After completing the antenna design and ﬁnalizing the pa-
+rameters, a prototype was fabricated and its performance was
+characterized through measurements. The fabricated antenna is
+TABLE II
+PARAMETERS OF FLARED SECTION
+Fig. 6.
+Fabricated antenna prototype. (a) Perspective view. (b) Top view.
+Fig. 7.
+Measurement environment (compact antenna test range).
+shown in Fig. 6, comprising the outer walls, four ridges, and an
+SMA connector. Each component was manufactured separately
+and then assembled, with the four ridges secured to the outer
+walls using screws. The measurement environment is shown in
+Fig. 7.
+Fig. 8 presents the simulated and measured scattering pa-
+rameters. Good agreement is observed between the simulated
+and measured results. Across the 2 GHz to 14 GHz band, both
+|S11| and |S22| remain below −10 dB, indicating satisfactory
+impedance matching. Moreover, |S21| is consistently below
+−30 dB, corresponding to port isolation greater than 30 dB.
+These results demonstrate that the proposed antenna achieves
+excellent impedance matching and high port isolation. The sim-
+ulated and measured boresight gain across the entire operating
+band is presented in Fig. 9. The antenna gain increases progres-
+sively with frequency, reaching a maximum of 19.3 dBi. The
+measured results exhibit strong agreement with the simulations,
+thereby validating the accuracy of the antenna design.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:06:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 4 =====
+614
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 25, NO. 2, FEBRUARY 2026
+Fig.8.
+Simulatedandmeasuredscatteringparametersoftheproposedantenna.
+Fig. 9.
+Simulated and measured gains of the proposed antenna.
+The simulated and measured co- and cross-polarized radiation
+patterns are shown in Fig. 10. Across the entire operating band,
+thedesiredstableradiationpatterns—freeofbeamsplitting—are
+successfully observed. This achievement is primarily attributed
+to the proposed shortened sidewall structure, which effectively
+suppresses undesired higher-order modes. Besides, low cross-
+polarization level (XPL) and consistent radiation characteristics
+of both ports are observed, demonstrating good polarization pu-
+rity and excellent dual-polarization performance. Furthermore,
+the close agreement between the measured and simulated results
+validates the effectiveness and reliability of the antenna design.
+The slight discrepancy, particularly in the high-frequency range,
+is primarily attributed to fabrication tolerances and imperfec-
+tions in the measurement environment.
+The comparison between the proposed antenna and other
+published QRH antennas is presented in Table III. The pro-
+posed antenna sustains an exceptionally stable radiation pattern
+while simultaneously achieving the optimal overall performance
+across various key performance in terms of wide bandwidth, low
+VSWR and low XPL. Additionally, reasonable gain and port
+isolation are also achieved.
+IV. CONCLUSION
+A wideband dual-polarized QRH antenna with stable radi-
+ation pattern was proposed and investigated in this letter. A
+metallic ring-shaped matching block replaces the conventional
+Fig. 10.
+Simulated and measured normalized radiation pattern of the proposed
+QRH antenna. (a) Port-X at 2 GHz. (b) Port-Y at 2 GHz. (c) Port-X at 6 GHz.
+(d) Port-Y at 6 GHz. (e) Port-X at 10 GHz. (f) Port-Y at 10 GHz. (g) Port-X at
+14 GHz. (h) Port-Y at 14 GHz.
+TABLE III
+COMPARISON OF PROPOSED QRH ANTENNA WITH PUBLISHED WORKS
+structure to ensure wideband impedance match-ing, while two
+metallic bridges at the ridge base address mismatch from un-
+equal port feeding heights. Furthermore, the ridge proﬁles and
+sidewall structure are carefully optimized to ensure smooth
+impedancetransitionsandtomitigateradiationpatterndistortion
+by suppressing higher-order modes, respectively. A prototype of
+the proposed antenna was fabricated and measured, showing
+good agreement with simulations and validating the design
+methodology. The antenna achieves superior overall perfor-
+mance, including a 7:1 bandwidth ratio, stable radiation patterns
+without beam splitting, high gain, low XPL, and high port
+isolation. These advantages make the antenna a strong candidate
+for wideband applications in measurements, communications,
+and sensing.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:06:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 5 =====
+CAO et al.: BROADBAND 2 GHz TO 14 GHz DUAL-POLARIZED HORN ANTENNA WITH STABLE UNIDIRECTIONAL RADIATION PATTERNS
+615
+REFERENCES
+[1] M. Vidyalakshmi and A. Saha, “Half-TEM horn antenna for EMI/C appli-
+cations,” in Proc. IEEE Int. WIE Conf. Electr. Comput. Eng., Bangalore,
+India, 2019, pp. 1–4.
+[2] H. Hirsch and R. Heinrich, “Simulation and experimental investigations of
+a TEM horn antenna for RF radiated immunity testing in close proximity,”
+in Proc. Int. Symp. Electromagn. Compat., Angers, France, 2017, pp. 1–5.
+[3] L. Song and Y. Nie, “An ultra-wide band exponential ﬂared TEM horn an-
+tenna for impulse radar systems,” in Proc. IET Int. Radar Conf., Hangzhou,
+China, 2015, pp. 1–4.
+[4] J. Shao, G. Fang, J. Fan, Y. Ji, and H. Yin, “TEM horn antenna loaded
+with absorbing material for GPR applications,” IEEE Antennas Wireless
+Propag. Lett., vol. 13, pp. 523–527, 2014.
+[5] A. S. Turk, A. K. Keskin, M. D. Senturk, A. Magat, M. B. Ozakin, and
+S. Aksoy, “Ultra wide band TEM horn and reﬂector antenna designs for
+down and forward looking ground penetrating radars,” in Proc. 7th Int.
+Workshop Adv. Ground Penetrating Radar, Nantes, France, 2013, pp. 1–6.
+[6] C. A. Balanis, Modern Antenna Handbook. Hoboken, NJ, USA: Wiley,
+2011.
+[7] “Very-High-Frequency Techniques II,” Radio Research Laboratory, Har-
+vard Univ., Cambridge, MA, USA, 1947, pp. 725–728.
+[8] J. L. Kerr, “A very broad band low silhouette antenna,” U.S. Army
+Electron. Command (ECOM), Fort Monmouth, NJ, USA, Tech. Rep.
+ECOM-3087, 1967.
+[9] J. Kerr, “Short axial length broad-band horns,” IEEE Trans. Antennas
+Propag., vol. 21, no. 5, pp. 710–714, Sep. 1973.
+[10] B. Jacobs, J. W. Odendaal, and J. Joubert, “An improved design for a
+1–18 GHz double-ridged guide horn antenna,” IEEE Trans. Antennas
+Propag., vol. 60, no. 9, pp. 4110–4118, Sep. 2012.
+[11] Z. Yue, Y. Liu, and S. Gong, “A novel 2–18 GHz double-ridged horn
+antenna with simple structure,” Microw. Opt. Technol. Lett., vol. 60, no. 7,
+pp. 1787–1794, 2018.
+[12] C. Wang, E. Li, Y. Zhang, and G. Guo, “Ridged horn antenna with
+adjustable metallic grid sidewalls and cross-shaped back cavity,” IEEE
+Antennas Wireless Propag. Lett., vol. 15, pp. 1221–1225, 2016.
+[13] Y. Ma et al., “A 10:1 bandwidth cryogenic quadruple-ridged ﬂared horn
+design for reﬂector antennas in radio astronomy,” IEEE Access, vol. 8,
+pp. 81101–81115, 2020.
+[14] X. Zhang, Z. Wang, C. Pan, X. Ba, and Y. Wang, “Dual-polarized inverted
+quad-ridged ﬂared horn antenna with one-decade bandwidth for OTA test-
+ing,” IEEE Antennas Wireless Propag. Lett., vol. 21, no. 6, pp. 1233–1237,
+Jun. 2022.
+[15] C. Bruns, P. Leuchtmann, and R. Vahldieck, “Full wave analysis and
+experimental veriﬁcation of a broadband ridged horn antenna system with
+parabolic reﬂector,” in Proc. IEEE Antennas Propag. Soc. Int. Symp.,
+Boston, MA, USA, vol. 4, 2001, pp. 230–233.
+[16] C. Bruns and P. Leuchtmann, “Analysis and simulation of a 1–18 GHz
+broadband double-ridged horn antenna,” IEEE Trans. Electromagn. Com-
+pat., vol. 45, no. 1, pp. 55–60, Feb. 2003.
+[17] M. Abbas-Azimi, F. Arazm, J. Rashed-Mohassel, and R. Faraji-Dana,
+“Design and optimization of a new 1–18 GHz double ridged guide horn
+antenna,” J. Electromagn. Waves Appl., vol. 21, no. 4, pp. 501–516, 2007.
+[18] M. Gerber, J. W. Odendaal, and J. Joubert, “DRGH antenna with improved
+gainandbeamwidthperformance,”IEEETrans.AntennasPropag.,vol.68,
+no. 5, pp. 4060–4065, May 2020.
+[19] J. Flygare and M. Pantaleev, “Dielectrically loaded quad-ridge ﬂared horn
+for beamwidth control over decade bandwidth—Optimization, manufac-
+ture, and measurement,” IEEE Trans. Antennas Propag., vol. 68, no. 1,
+pp. 207–216, Jan. 2020.
+[20] Z. Zhao, Z. Wang, J. R. Kelly, and S. Gao, “Balanced feed low cross-
+polarization quad-ridged horn antenna with center cross fusiform loaded,”
+IEEE Trans. Antennas Propag., vol. 69, no. 9, pp. 6004–6009, Sep. 2021.
+[21] J. Flygare et al., “Beyond-decade ultrawideband quad-ridge ﬂared horn
+with dielectric load from 1 to 20 GHz,” IEEE Trans. Antennas Propag.,
+vol. 71, no. 3, pp. 2110–2125, Mar. 2023.
+[22] Ó. García-Pérez et al., “A modular approach for the design of quadruple
+ridged ﬂared horn antenna feeds,” IEEE Access, vol. 12, pp. 69642–69651,
+2024.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 29,2026 at 10:06:19 UTC from IEEE Xplore.  Restrictions apply. 

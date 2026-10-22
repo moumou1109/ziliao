@@ -1,0 +1,378 @@
+
+===== PAGE 1 =====
+566
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 21, NO. 3, MARCH 2022
+A Wideband 1-Bit Reconﬁgurable Reﬂectarray
+Antenna at Ku-Band
+Shi-Guo Zhou
+, Gang Zhao
+, He Xu
+, Chuan-Wei Luo
+, Ji-Qiu Sun
+, Guan-Tao Chen
+,
+and Yong-Chang Jiao
+, Senior Member, IEEE
+Abstract—In this letter, a wideband high-efﬁciency 1-bit 16 ×
+16 reconﬁgurable reﬂectarray antenna (RRA) is proposed. First, a
+wideband and low loss 1-bit RRA element is designed. It consists of
+double-layer patches printed on two dielectric substrates, respec-
+tively, forming a multiresonant behavior to expand the bandwidth.
+Due to the relatively thin thickness of the double-layer dielectric
+substrate (0.05 λ0), the element has low reﬂection loss. Therefore,
+the high efﬁciency and wide bandwidth performances can be ob-
+tained simultaneously. The phase difference between the two states
+of the RRA element is stable within 180 ± 20° in the frequency
+range of 12.9–16.5 GHz. Based on the broadband RRA element, a
+16 × 16 RRA was fabricated and measured. Tested results show
+that the proposed RRA achieves 22.5% of 1 dB gain bandwidth and
+25% of maximum aperture efﬁciency.
+Index Terms—Beam scanning, high efﬁciency, p-i-n diode,
+reconﬁgurable reﬂectarray, wideband.
+I. INTRODUCTION
+I
+N THE ﬁelds of satellite communications, such as space
+explorations and mobile communication, in order to adapt
+to the long-distance communication and relatively complicated
+space environment, it is essential to design high-gain antennas.
+As a new generation of high-gain antenna, the reconﬁgurable
+reﬂectarray antenna (RRA) [1] combines the beam-scanning
+characteristic of phased array antenna based on the traditional
+reﬂectarray antenna [2], [3]. Besides, it also has a lot of merits
+of low proﬁle, light weight, low cost, and easy fabrication. The
+beam agile capability of RRA can meet the requirements of
+automatic scanning in satellite communications. As a high-gain
+directional antenna, the RRA has great potential in the applica-
+tions of radar and communication systems.
+RRA has many advantages, and it has been well veriﬁed that
+the reﬂectarray antenna can realize the reconﬁgurable function
+through lumped elements [4]–[9]. However, they all have the
+disadvantage of narrow bandwidth [10]. In order to increase the
+information transmission rate of satellite communications, it is
+necessary to enhance the operating bandwidth of the antenna.
+For small and medium sized RRAs, the bandwidth of the reﬂec-
+tarray element is the main factor limiting the gain bandwidth
+Manuscript received November 20, 2021; accepted December 20, 2021. Date
+of publication December 28, 2021; date of current version March 3, 2022. This
+work was supported by the National Key Research and Development Program
+of China under Grant 2020YFA0713900. (Corresponding author: Gang Zhao.)
+The authors are with the National Key Laboratory of Antennas and Microwave
+Technology, Xidian University, Xi’an 710071, China (e-mail: zsg18839156308
+@163.com; gangzhao@mail.xidian.edu.cn; xuhe_jw@163.com; chweiluo@
+163.com; jiqiu_sun@163.com; gtchen@stu.xidian.edu.cn; ychjiao@xidian.
+edu.cn).
+Digital Object Identiﬁer 10.1109/LAWP.2021.3138438
+of RRA. In terms of the element structure, the common ways
+to increase bandwidth include a single-layer multiresonance
+structure [11] and a multilayer stacked structure [12]. However,
+for the RRA, the single-layer multiresonance structure is not
+suitable for the connection between the phase-shifting structure
+and lumped components, which increases the difﬁculty of design
+and fabrication. Although the bandwidth can be broadened by
+increasing the thickness of the dielectric substrate, the thick
+dielectric will strongly excite the surface waves and some high-
+order modes, which will increase the element loss and reduce
+the radiation efﬁciency. For satellite digital broadcasting, the
+Ku-band is more conducive to the transmission of digital signals
+comparedwiththeC-bandduetoitsbetterstability.However,the
+higher frequencies of Ku-band bring in more losses than C-band,
+and the loss of lumped element is increased at the same time. In
+addition, the errors caused by phase quantization will further
+reduce the aperture efﬁciency of the RRA. Therefore, it has
+important signiﬁcance to investigate broadband, high-efﬁciency
+Ku-band RRA.
+Up to now, there have been relatively few studies on Ku-band
+broadband high-efﬁciency RRA. Two resonant structures are
+employed to broaden the bandwidth of the varactor diode-tuned
+element in [13]. By using a square slotted patch loaded with
+a p-i-n diode and optimizing the phase-shift distribution at the
+center frequency, the RRA achieves wideband characteristics
+[14]. Although the gain bandwidth of these structures in [13] and
+[14]hasbeenimprovedtosomeextent,theirapertureefﬁciencies
+are merely 7.5% and 15.2%, respectively. In [15], the aperture
+efﬁciency of the antenna is improved by optimizing the feed
+position and the phase distribution. However, the gain bandwidth
+of the antenna is still limited. In [16], the aperture efﬁciency
+has been improved to 25% by placing p-i-n diode on the back
+of the RRA, whereas the 1 dB gain bandwidth of the RRA is
+only 3%.
+In this letter, a multilayer stacked structure is used to expand
+bandwidth. Meanwhile, the p-i-n diode is placed below the
+ground plane [14], which not only facilitates the connection
+between the two-layer patches and the p-i-n diode but also
+improves the aperture efﬁciency of the RRA. In addition, two
+thin dielectric substrates are used to reduce the dielectric loss
+without affecting the working bandwidth. Based on the RRA
+element, a 1-bit RRA operating in Ku-band is proposed. Mea-
+sured results show that the 1 dB gain bandwidth of the RRA is
+22.5%, and the peak aperture efﬁciency is 25%. The wide-angle
+beam-scanning performance reaches ±60°. It can be concluded
+from the measured results that the proposed method effectively
+improves the gain bandwidth and aperture efﬁciency for the
+RRA.
+1536-1225 © 2021 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+See https://www.ieee.org/publications/rights/index.html for more information.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 02:38:33 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 2 =====
+ZHOU et al.: WIDEBAND 1-BIT RECONFIGURABLE REFLECTARRAY ANTENNA AT Ku-BAND
+567
+Fig. 1.
+Topology of the proposed 1-bit RRA element. (a) Perspective view.
+(b) Top view.
+II. WIDEBAND 1-BIT RRA ELEMENT DESIGN
+In this letter, the multilayer stacked structure is adopted to
+design the RRA element. Two layers of patches form double
+resonance behavior, which obtains a smooth and good linear
+reﬂection phase curve. The element structure is shown in Fig. 1,
+which includes three stacked dielectric substrates and four metal
+layers. Arlon AD255 (εr = 2.55 and tanδ = 0.0014) is used
+for all three dielectric layers. A rectangular patch and a slotted
+square patch are printed on the top surface of the upper and
+middle dielectric layers, respectively. The ground plane is placed
+between the middle substrate and the bottom substrate, which
+is conducive to grounding the dc circuits. The lower surface of
+the bottom dielectric substrate contains the dc bias line and two
+microstrip lines for connecting p-i-n diode. The two radiating
+patches are connected through the metalized via holes, one
+microstrip line is connected to the end of the p-i-n diode and
+the other one is connected to the other end of the p-i-n diode,
+which is ﬁnally connected to the ground plane. The welding
+position of the p-i-n diode is shown in Fig. 1(b). The resonant
+characteristics of the element change correspondingly when the
+p-i-n diode is ON or OFF under the control of the dc bias voltage,
+which eventually guarantees the proposed element has a phase
+difference of 180° between the two states.
+The MACOM MADP-000907-14020W p-i-n diode is chosen
+in this design, which can operate in the desired frequency with
+low insertion loss. In the element simulation, the p-i-n diode is
+modeled as the RLC boundary condition in the High Frequency
+Structure Simulator (HFSS) software. For the ON state, the p-i-n
+diode is modeled as a lumped resistor with a typical value of
+5.2 Ω, while the p-i-n diode is modeled as a lumped capacitance
+with a typical value of 25 fF on the OFF state. The bias point
+should be designed at the equivalent zero-electric ﬁeld position
+of the element to reduce the inﬂuence of the dc signal on the
+reﬂection ﬁeld. To isolate the radio frequency signal from the dc
+signal, an open-ended radial stub and a quarter-wavelength bias
+line with high resistance are connected to the dc line.
+The proposed RRA element is simulated by ANSYS HFSS
+software with periodic boundary conditions. Some key geomet-
+ric parameters are: P = 9.5 mm, t1 = t2 = 1.016 mm, t3 =
+0.508 mm, L = W = 4.5 mm, and W1 = 1.26 mm. Under
+the condition of vertical incidence, the reﬂection phase and
+amplitude results of the RRA element are simulated in the
+ON and OFF states, as shown in Fig. 2(a). It can be obtained
+from the ﬁgure that a phase difference of 180° ± 20° is achieved
+Fig. 2.
+Simulated reﬂection coefﬁcients of the proposed RRA element.
+(a) Vertical incidence. (b) Oblique incidence.
+Fig. 3.
+Photograph of the proposed RRA.
+from 12.9 to 16.5 GHz, and the relative bandwidth is 23.8%. The
+proposed RRA element has good broadband performance. In the
+operating frequency band, the reﬂection loss of the element is
+less than 0.6 dB, which indicates that the double-layer dielectric
+plate does not increase the loss. It is beneﬁcial to improve the
+aperture efﬁciency of the RRA. At the same time, the element
+characteristics for oblique incidences are given in Fig. 2(b). It
+can be seen from the ﬁgure that the phase curves of the RRA
+element proposed in this letter with different incidence angles
+are almost consistent, and the amplitudes change a little within
+the working bandwidth.
+III. 16 × 16 RRA PROTOTYPE DESIGN AND MEASUREMENT
+A. 16 × 16 RRA Design
+Based on the proposed broadband 1-bit RRA element, a
+16 × 16 RRA is designed and fabricated, as shown in Figs. 3
+and 4. The RRA array is arranged in a circular pattern, which
+consists of 208 reﬂectarray elements with an effective aperture
+diameter of 152 mm, corresponding to 7.6 λ0 at 15 GHz. A
+total of 16 sockets are arranged on both sides of the array to
+connect to the main control board. Every socket contains 16 dc
+input channels corresponding to the 16 elements in two adjacent
+columns on one side of the RRA array. The size of the printed
+circuit board is 271 × 192 mm2. Each element of the reﬂectarray
+contains one p-i-n diode, and the total of 208 p-i-n diodes is
+soldered on the RRA. Since the RRA is y-polarization, in order
+to reduce the inﬂuence of the dc biasing lines on the radiation
+performance of the antenna, the dc biasing lines are placed in
+the x-axis direction.
+B. Control Board
+The main control board is an important part of the RRA
+design, and its prototype is shown in Fig. 3. The main control
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 02:38:33 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 3 =====
+568
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 21, NO. 3, MARCH 2022
+Fig. 4.
+Layout of biasing lines on the bottom layer of the proposed RRA.
+board is designed based on microcontroller unit (MCU) compo-
+nents, which outputs 256 signals in parallel. It can independently
+control the voltage of each dc input and then control the ON or
+OFF of each p-i-n diode. At the same time, an LED display circuit
+is added to each output terminal, which can display the phase
+distributionof thearray. It cancheckthecorrectness of theoutput
+of the control circuit.
+C. Feed
+In this letter, a standard pyramid horn at the Ku-band is chosen
+as feed, which can emit the y-polarized spherical wave. Its
+equivalent phase center is 14 mm behind the aperture plane of
+the horn, and the 10 dB beamwidth is 52°. Therefore, the focal
+diameter ratio is 1.03, and the distance from the equivalent phase
+center of the horn to the RRA is 156.6 mm. In order to reduce
+the blocking effect, the offset feeding method is adopted. The
+horn is located in the xoz plane, and the offset angle is 26°.
+D. Optimization of Compensation Phase Distribution
+For the reﬂectarray, the spherical wave emitted by the feed
+is converted to the plane wave in the (θ0, ϕ0) direction, and the
+phase shift of the mnth element is calculated as follows:
+ϕrmn = k [dmn −sin θ0 (xmn cos ϕ0 + ymn sin ϕ0)] + Δϕ
+(1)
+where Δϕ is a constant reference phase [17], k represents the
+propagation constant, and dmn is the distance between the mnth
+element (xmn, ymn, zmn) and the feed phase center (xf, yf, zf).
+According to (1), the continuous phase-shift compensation
+of the reﬂectarray is within the range of 0°–360°. Since there
+are only two states for each element, the 1-bit discrete phases
+are required. In this design, the compensation phases of the two
+states at 15 GHz are designed as 90° and 270°, and the standard
+180° phase shift is selected as the quantization standard. The
+quantization method is shown as follows:
+ϕrmn =
+90◦, 0 ≤ϕrmn< 180◦
+270◦, 180◦≤ϕrmn< 360◦.
+(2)
+In fact, the use of discrete phases leads to a degradation of the
+radiation performance of the reﬂectarray, such as gain decrease,
+high sidelobe level, and main beam direction error. Although
+Fig. 5.
+Simulated radiation patterns with different reference phases.
+Fig. 6.
+Measured radiation patterns for the main beam scanned from −40° to
+10° with a step of 10° in the xoz plane at 15 GHz.
+these adverse effects can be reduced by increasing the number
+of RRA elements, they also can be improved by optimizing
+the reference phase Δϕ when the array size is determined.
+In this design, the radiation patterns corresponding to different
+reference phases are simulated when the direction of the main
+beam is −26° in the xoz plane, as shown in Fig. 5. It can be
+seen that the different sidelobe levels will be generated when
+the antenna adopts different reference phases, and the best
+referencephaseofthemainbeamat−26°is30°,andthesidelobe
+levels are less than −15 dB. Therefore, in order to improve the
+radiation performance, it is necessary to optimize the reference
+phase for each beam-scanning direction θ0.
+E. Beam-Scanning Design and Measurement
+Since the p-i-n diode on each RRA element can be indepen-
+dently controlled through the main control board, the phase of
+each element can be adjusted ﬂexibly, and the beam-scanning
+performance can be achieved. As the coordinate system of x1y1z1
+is shown in Fig. 3, the direction of the maximum gain of the
+antenna in this design is z1-axis, which is oriented at 30° to the
+z-axis. Figs. 6 and 7 give the measured beam-scanning results
+in the xoz and y1oz1 planes at 15 GHz, respectively. Due to
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 02:38:33 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 4 =====
+ZHOU et al.: WIDEBAND 1-BIT RECONFIGURABLE REFLECTARRAY ANTENNA AT Ku-BAND
+569
+TABLE I
+COMPARISON OF THE PROPOSED RRA WITH SOME EXISTING WORKS
+Note that NA refers to not available.
+Fig. 7.
+Measured radiation patterns for the main beam scanned from 0° to 60°
+with a step of 10° in the y1oz1 plane at 15 GHz.
+Fig. 8.
+Measured cross polarization in the y1oz1 plane at 15 GHz.
+the blocking effect of the offset feed, it is found that the RRA
+can achieve the best beam-scanning function in the range of
+−40°–10° in the xoz plane. Since there is no blockage caused by
+the feed in the y1oz1 plane, the sidelobe levels are much better
+than those in the xoz plane, and scan angles of ±60° can be
+achieved. As shown in Fig. 7, the gain difference of the main
+beams between 0° and 60° directions is less than 5 dB, and the
+sidelobe level of the case that the main beam point at 0° is below
+−10 dB. With the increase of beam-scanning angle, the sidelobe
+levelofRRAincreasesslightly,andthegaindecreases.Thecross
+polarizations of this design are shown in Fig. 8, and their levels
+Fig. 9.
+Simulated and measured gain of the proposed RRA.
+are less than −13 dB. It can be obtained that the RRA has good
+two-dimensional beam-scanning performance.
+In addition, the gain versus frequency with +30° beam steer-
+ing in the xoz plane is studied, and the corresponding simulated
+and tested results are shown in Fig. 9. The measured maximum
+gain of the RRA is 21.6 dB, corresponding to the aperture
+efﬁciency of 25%. The 1 dB gain bandwidth of the RRA is 22.5%
+(13.7–16.3 GHz). Compared with the RRAs in the literature in
+Table I, it can be seen that the proposed RRA element has a
+wider 1 dB gain bandwidth and higher aperture efﬁciency.
+IV. CONCLUSION
+In this letter, a wideband high-efﬁciency 1-bit RRA with
+16 × 16 elements operating in Ku-band is proposed. In this
+design, the RRA element expands the bandwidth by stacking
+two layers of radiating patches to form two resonant frequencies
+close to each other. Meanwhile, the reconﬁgurable element in
+this design does not increase the reﬂection loss by using the
+stacking structure, which is conducive to improving the aperture
+efﬁciency of RRA. The measured results show that the proposed
+RRA has a 1 dB gain bandwidth of 22.5% and an aperture
+efﬁciency of 25%.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 02:38:33 UTC from IEEE Xplore.  Restrictions apply. 
+
+===== PAGE 5 =====
+570
+IEEE ANTENNAS AND WIRELESS PROPAGATION LETTERS, VOL. 21, NO. 3, MARCH 2022
+REFERENCES
+[1] P. Nayeri, F. Yang, and A. Z. Elsherbeni, “Beam-scanning reﬂectarray
+antennas: A technical overview and state of the art,” IEEE Antennas
+Propag. Mag., vol. 57, no. 4, pp. 32–47, Aug. 2015.
+[2] D. Berry, R. Malech, and W. Kennedy, “The reﬂectarray antenna,” IEEE
+Trans. Antennas Propag., vol. AP-11, no. 6, pp. 645–651, Nov. 1963.
+[3] P. Nayeri, F. Yang, and A. Z. Elsherbeni, Reﬂectarray Antennas: Theory,
+Designs, and Applications. New York, NY, USA: Wiley, 2018.
+[4] H. Kamoda, T. Iwasaki, J. Tsumochi, T. Kuki, and O. Hashimoto,
+“60-GHz electronically reconﬁgurable large reﬂectarray using single-
+bit phase shifters,” IEEE Trans. Antennas Propag., vol. 59, no. 7,
+pp. 2524–2531, Jul. 2011.
+[5] E. Carrasco, M. Barba, and J. A. Encinar, “X-band reﬂectarray antenna
+with switching-beam using PIN diodes and gathered elements,” IEEE
+Trans. Antennas Propag., vol. 60, no. 12, pp. 5700–5708, Dec. 2012.
+[6] H. Yang et al., “A 1600-element dual-frequency electronically reconﬁg-
+urable reﬂectarray at X/Ku-band,” IEEE Trans. Antennas Propag., vol. 65,
+no. 6, pp. 3024–3032, Jun. 2017.
+[7] L. Boccia, G. Amendola, and G. Di Massa, “Performance improvement
+foravaractor-loadedreﬂectarrayelement,” IEEETrans.AntennasPropag.,
+vol. 58, no. 2, pp. 585–589, Feb. 2010.
+[8] H. Rajagopalan, Y. Rahmat-Samii, and W. A. Imbriale, “RF MEMS actu-
+ated reconﬁgurable reﬂectarray patch-slot element,” IEEE Trans. Antennas
+Propag., vol. 56, no. 12, pp. 3689–3699, Dec. 2008.
+[9] J. Perruisseau-Carrier and A. K. Skrivervik, “Monolithic MEMS-based
+reﬂectarray cell digitally reconﬁgurable over a 360° phase range,” IEEE
+Antennas Wireless Propag. Lett., vol. 7, pp. 138–141, 2008.
+[10] D. M. Pozar, “Bandwidth of reﬂectarrays,” Electron. Lett., vol. 39, no. 21,
+pp. 1490–1491, 2003.
+[11] J. H. Yoon, Y. J. Yoon, W.-S. Lee, and J.-H. So, “Broadband microstrip
+reﬂectarray with ﬁve parallel dipole elements,” IEEE Antennas Wireless
+Propag. Lett., vol. 14, pp. 1109–1112, 2015.
+[12] J. A. Encinar and J. A. Zornoza, “Broadband design of three-layer
+printed reﬂectarrays,” IEEE Trans. Antennas Propag., vol. 51, no. 7,
+pp. 1662–1664, Jul. 2003.
+[13] C. Liu and S. V. Hum, “An electronically tunable single-layer reﬂectarray
+antenna element with improved bandwidth,” IEEE Antennas Wireless
+Propag. Lett., vol. 9, pp. 1241–1244, 2010.
+[14] J. Han, L. Li, G. Liu, Z. Wu, and Y. Shi, “A wideband 1 bit 12 ×
+12 reconﬁgurable beam-scanning reﬂectarray: Design, fabrication, and
+measurement,” IEEE Antennas Wireless Propag. Lett., vol. 18, no. 6,
+pp. 1268–1272, Jun. 2019.
+[15] H. Yang et al., “A 1-bit 10 × 10 reconﬁgurable reﬂectarray antenna:
+Design, optimization, and experiment,” IEEE Trans. Antennas Propag.,
+vol. 64, no. 6, pp. 2246–2254, Jun. 2016.
+[16] H. Zhang, X. Chen, Z. Wang, Y. Ge, and J. Pu, “A 1-bit electronically
+reconﬁgurable reﬂectarray antenna in X band,” IEEE Access, vol. 7,
+pp. 66567–66575, 2019.
+[17] A. H. Abdelrahman, P. Nayeri, A. Z. Elsherbeni, and F. Yang, “Bandwidth
+improvement methods of transmitarray antennas,” IEEE Trans. Antennas
+Propag., vol. 63, no. 7, pp. 2946–2954, Jul. 2015.
+Authorized licensed use limited to: XIDIAN UNIVERSITY. Downloaded on September 03,2026 at 02:38:33 UTC from IEEE Xplore.  Restrictions apply. 
