@@ -1,0 +1,32 @@
+# ===== Python 依赖与环境（体积最大，绝对不能进仓库）=====
+_ref/pylibs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== 中间产物（可重新生成，不必留档）=====
+_ref/dl/
+_ref/shots/
+*.log
+*.tmp
+
+# ===== Obsidian 本地状态 =====
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# ===== 系统文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 大文件保护 =====
+# GitHub 单文件硬上限 100MB。你现在的三本教材最大 74MB，安全。
+# 若以后要控制仓库体积、只存脚本和笔记，把下面一行取消注释：
+# *.pdf
